@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "holding_wand_and_sneaking": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          },
+          "slots": {
+            "weapon.mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{magus_wand:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/magus/spells/kill_spell_interaction"
+  }
+}

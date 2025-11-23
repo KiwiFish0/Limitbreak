@@ -1,0 +1,1 @@
+advancement revoke @s only kiwi2:incandescent_remains

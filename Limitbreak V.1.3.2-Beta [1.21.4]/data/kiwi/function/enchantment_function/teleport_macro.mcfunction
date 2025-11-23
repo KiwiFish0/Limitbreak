@@ -1,0 +1,2 @@
+$execute as @e[type=armor_stand,tag=arrow_rain_target] at @s run tp @e[type=armor_stand,tag=arrow_rain_selector] ~$(x) ~$(y) ~$(z)
+execute as @e[type=armor_stand,tag=arrow_rain_selector] at @s run tp @s ~ ~100 ~

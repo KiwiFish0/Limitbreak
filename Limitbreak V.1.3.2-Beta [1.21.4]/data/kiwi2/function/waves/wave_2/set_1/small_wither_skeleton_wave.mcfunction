@@ -1,0 +1,5 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"30 ","color":"green","bold":false},{"text":"Wither Skeletons","color":"#5c5c5c","bold":true}]
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon wither_skeleton ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon wither_skeleton ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:stone_sword",count:1},{}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon wither_skeleton ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:stone_sword",count:1},{}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 20011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=wither_skeleton, tag=wave_mob]

@@ -1,0 +1,36 @@
+{
+    "primary_items": "#minecraft:enchantable/armor",
+    "anvil_cost": 4,
+    "description": "Boost",
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:attribute",
+            "attribute": "minecraft:jump_strength",
+            "id": "boost_jump_strength",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.1,
+              "per_level_above_first": 0.1
+            },
+            "operation": "add_value"
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 20,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

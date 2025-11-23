@@ -1,0 +1,1 @@
+give @p sugar[consumable={consume_seconds:2,sound:"block.trial_spawner.open_shutter"},item_name='[{"color":"gold","obfuscated":true,"text":"X"},{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"text":" Point Crystal "},{"obfuscated":true,"text":"X"}]',item_model="minecraft:resin_clump"] 1

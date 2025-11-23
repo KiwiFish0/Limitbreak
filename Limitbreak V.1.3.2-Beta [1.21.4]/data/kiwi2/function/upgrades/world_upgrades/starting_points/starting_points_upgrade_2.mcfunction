@@ -1,0 +1,1 @@
+scoreboard players set starting_points world_upgrades 2

@@ -1,0 +1,2 @@
+$place template kiwi2:portal_room $(x) 10 $(z)
+tellraw @a [{"text": "A portal room has generated on ", "color": "yellow"},{"score": {"name": "world","objective": "spreadplayersX"}},{"text":" 10 "},{"score": {"name": "world","objective": "spreadplayersZ"}},{"text":"."}]

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Crystal",
+                "bold": true,
+                "color": "#e79e00",
+                "italic": false
+            }
+          },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "sound": "minecraft:block.trial_spawner.open_shutter",
+                  "has_consume_particles": true
+                },
+                "minecraft:item_model": "minecraft:resin_clump",
+                "rarity": "epic",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

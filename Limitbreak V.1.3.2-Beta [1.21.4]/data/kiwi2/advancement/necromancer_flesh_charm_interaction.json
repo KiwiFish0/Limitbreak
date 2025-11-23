@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "holding_item": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{flesh_charm:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/necromancer/summons/zombie/zombie_spawn_interaction"
+  }
+}

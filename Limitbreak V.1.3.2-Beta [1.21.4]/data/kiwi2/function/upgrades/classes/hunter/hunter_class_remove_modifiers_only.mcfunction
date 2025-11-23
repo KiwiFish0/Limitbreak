@@ -1,0 +1,5 @@
+attribute @s minecraft:max_health modifier remove hunter_class_max_health
+attribute @s minecraft:movement_speed modifier remove hunter_class_movement_speed
+attribute @s movement_speed modifier remove minecraft:hunter_power_shot_mov_speed
+attribute @s minecraft:jump_strength modifier remove minecraft:hunter_power_shot_jump_strength
+tag @s remove hunter_has_shot_power_shot

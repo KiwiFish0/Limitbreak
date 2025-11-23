@@ -1,0 +1,4 @@
+summon fireball ~ ~300 ~ {ExplosionPower:30b,Invulnerable:1b,Motion:[0.0,-0.05,0.0],Tags:["wave_mob","phantom_sovereign_mega_meteor"],Item:{id:"minecraft:magma_block",count:1}}
+summon block_display ~ ~300 ~ {Glowing:1b,Tags:["phantom_sovereign_mega_meteor_display"],HasVisualFire:1b,view_range:12000f,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]},block_state:{Name:"minecraft:magma_block"}}
+particle block_marker{block_state:"barrier"} ~ ~-25 ~ 5 0 5 1 200 force
+playsound minecraft:entity.arrow.hit_player master @a[distance=..800] ~ ~ ~ 10000 0 1

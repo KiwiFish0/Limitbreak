@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "R": "minecraft:chain",
+    "H": "minecraft:chainmail_helmet",
+    "C": "minecraft:chainmail_chestplate",
+    "L": "minecraft:chainmail_leggings",
+    "S": [
+      "soul_sand",
+      "minecraft:soul_soil"
+    ]
+  },
+  "pattern": [
+    "BHB",
+    "RCR",
+    "SLS"
+  ],
+  "result": {
+    "id": "minecraft:chain",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Chainmail Set Upgrade ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a summon to equip it with an chainmail armor set.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"white\",\"bold\":false,\"italic\":false,\"text\":\"+12 Armor\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Overrides any existing worn armor.\"}"
+      ],
+      "minecraft:rarity": "uncommon",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_chainmail_set_upgrade:1b,necromancer_armor_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:item.armor.equip_chain",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @p glowstone_dust[consumable={consume_seconds:0,sound:"block.trial_spawner.spawn_item_begin"},item_name='[{"color":"gold","obfuscated":true,"text":"X"},{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"text":" Point Dust "},{"obfuscated":true,"text":"X"}]'] 1

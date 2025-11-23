@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 1,
+    "description": "[Boots] Lightweight",
+    "exclusive_set": "kiwi:heavy_boots",
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:armor",
+          "id": "lightweight_boots_armor_attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.3,
+            "per_level_above_first": -0.3
+          },
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:movement_speed",
+          "id": "lightweight_boots_movement_speed_attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.004,
+            "per_level_above_first": 0.004
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 30,
+      "per_level_above_first": 10
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "feet"
+    ],
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 5
+  }

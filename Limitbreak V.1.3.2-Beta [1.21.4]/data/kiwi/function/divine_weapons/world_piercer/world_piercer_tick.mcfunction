@@ -1,0 +1,5 @@
+execute at @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}}] run summon tnt ~ ~ ~
+execute at @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}}] run summon lightning_bolt ~ ~ ~
+execute at @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}}] run particle flash ~ ~ ~ 1 1 1 1 5
+execute as @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}}] run data merge entity @s {Invulnerable:1b, damage:50, NoGravity:1b, Glowing:1b}
+execute as @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}},nbt={inGround:1b}] if entity @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:railgun":1}}}}},nbt={inGround:1b}] run function kiwi:divine_weapons/world_piercer/world_piercer_ground

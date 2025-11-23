@@ -1,0 +1,2 @@
+summon silverfish ~ ~1.5 ~ {Tags:["necromancer_position_marker"],NoAI:1b,Silent:1b,DeathTime:0s,active_effects:[{id:"invisibility",duration:99999999,show_particles:false},{id:"resistance",amplifier:255,duration:99999999,show_particles:false}],Silent:1b}
+schedule function kiwi2:upgrades/classes/necromancer/summons/all_summons/find_player_position_2 1t

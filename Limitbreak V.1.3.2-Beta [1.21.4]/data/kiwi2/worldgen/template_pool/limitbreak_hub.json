@@ -1,0 +1,16 @@
+{
+  "name": "kiwi2:limitbreak_hub",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "kiwi2:limitbreak_hub",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+        }
+    }
+  ]
+}
+

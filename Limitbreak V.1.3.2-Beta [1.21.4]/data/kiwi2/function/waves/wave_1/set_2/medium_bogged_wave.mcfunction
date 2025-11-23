@@ -1,0 +1,8 @@
+execute if score world Time matches 18001 run title @a subtitle [{"text":"60 ","color":"yellow","bold":false},{"text":"Bogged","color":"#00741b","bold":true}]
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:bow",count:1},{}],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:bow",count:1},{}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:bow",count:1},{}],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon bogged ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:bow",count:1},{}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 18011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=bogged, tag=wave_mob]

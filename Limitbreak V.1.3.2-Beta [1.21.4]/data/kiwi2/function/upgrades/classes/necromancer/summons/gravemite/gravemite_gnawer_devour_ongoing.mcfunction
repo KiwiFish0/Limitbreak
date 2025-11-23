@@ -1,0 +1,17 @@
+execute if entity @n[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=1..}] run schedule function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_ongoing 1t
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=180}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=160}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=140}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=120}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=100}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=80}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=60}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=40}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=20}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=1}] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_devour_fx
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=0}] at @s run attribute @s movement_speed modifier remove gravemite_gnawer_devour_speed
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=0}] at @s run attribute @s movement_speed modifier remove gravemite_gnawer_devour_kb_resist
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=0}] at @s run playsound minecraft:entity.player.burp master @a[distance=..32] ~ ~ ~ 1 0
+execute as @e[type=silverfish,tag=gravemite_devour_active,scores={gravemite_gnawer_devour_timer=0}] at @s run tag @s remove gravemite_devour_active
+execute as @e[type=silverfish,scores={gravemite_gnawer_devour_timer=0}] at @s run scoreboard players reset @s gravemite_gnawer_devour_timer
+execute as @e[type=silverfish,scores={gravemite_gnawer_devour_timer=1..}] at @s run scoreboard players remove @s gravemite_gnawer_devour_timer 1

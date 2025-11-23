@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "offsetY": 0,
+    "predicate": {
+      "position": {
+        "y": {
+            "min": 33.00,
+            "max": 64.0
+        }
+      }
+    }
+  }  

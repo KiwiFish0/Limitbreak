@@ -1,0 +1,139 @@
+# Point Milestones UX
+    # Sequence 10 
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:100_points_max_health_upgrade"}]}]}] if score @s Points matches 100.. run tellraw @s {"text": "Your body adapts and grows in strength and vitality."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:200_points_max_health_upgrade"}]}]}] if score @s Points matches 200.. run tellraw @s {"text": "Your muscles harden and your heart beats with vigor."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:325_points_max_health_upgrade"}]}]}] if score @s Points matches 325.. run tellraw @s {"text": "Your skin toughens, your grip tightens, a fire burns inside you."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:500_points_max_health_upgrade"}]}]}] if score @s Points matches 500.. run tellraw @s {"text": "You feel something in the distance. Your body grows ever stronger."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:750_points_max_health_upgrade"}]}]}] if score @s Points matches 750.. run tellraw @s {"text": "A riddle in your mind is close to being solved. The fire burns ever brighter."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_max_health_upgrade"}]}]}] if score @s Points matches 1000.. run tellraw @s {"text": "A breakthrough has occured inside you. You have become more adept in every way."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_max_health_upgrade"}]}]}] if score @s Points matches 1000.. unless score Sequence10 SequenceCount matches 1.. run tellraw @a ["A threshold has been crossed... ",{"bold":true,"selector":"@s"}," was the first to reach ",{"bold":true,"color":"#E6E6E6","text":"P"},{"bold":true,"color":"#CACACA","text":"h"},{"bold":true,"color":"#ADADAD","text":"a"},{"bold":true,"color":"#C1C1C1","text":"s"},{"bold":true,"color":"#D4D4D4","text":"e "},{"bold":true,"color":"#E6E6E6","text":"1"},{"text":"."}]
+
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:100_points_max_health_upgrade"}]}]}] if score @s Points matches 100.. at @s run playsound minecraft:entity.breeze.hurt master @s ~ ~ ~ 1 .1
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:200_points_max_health_upgrade"}]}]}] if score @s Points matches 200.. at @s run playsound minecraft:entity.warden.angry master @s ~ ~ ~ 1 2
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:325_points_max_health_upgrade"}]}]}] if score @s Points matches 325.. at @s run playsound minecraft:entity.blaze.hurt master @s ~ ~ ~ 1 0.4
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:500_points_max_health_upgrade"}]}]}] if score @s Points matches 500.. at @s run playsound minecraft:entity.warden.agitated master @s ~ ~ ~ 1 .1
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:750_points_max_health_upgrade"}]}]}] if score @s Points matches 750.. at @s run playsound minecraft:entity.warden.angry master @a ~ ~ ~ 1 2
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_max_health_upgrade"}]}]}] if score @s Points matches 1000.. at @s run function kiwi2:points/sequence_fx
+
+    # Sequence 9
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1300_points_max_health_upgrade"}]}]}] if score @s Points matches 1300.. run tellraw @s {"text": "You feel power surging inside you, another fire lights up."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1650_points_max_health_upgrade"}]}]}] if score @s Points matches 1650.. run tellraw @s {"text": "Your heart beats ever stronger, your muscles harden in response."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2050_points_max_health_upgrade"}]}]}] if score @s Points matches 2050.. run tellraw @s {"text": "An unknown yet familliar feeling rests in your chest..."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2500_points_max_health_upgrade"}]}]}] if score @s Points matches 2500.. run tellraw @s {"text": "You are sure of it now, another breakthrough is near."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3000_points_max_health_upgrade"}]}]}] if score @s Points matches 3000.. run tellraw @s {"text": "You tense up as you feel the power awaiting you ahead."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_max_health_upgrade"}]}]}] if score @s Points matches 3500.. run tellraw @s {"text": "You feel undefeatable, your spirit is unyielding."}
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_max_health_upgrade"}]}]}] if score @s Points matches 3500.. unless score Sequence9 SequenceCount matches 1.. run tellraw @a ["A threshold has been crossed... ",{"bold":true,"selector":"@s"}," was the first to reach ",{"bold":true,"color":"#FFE373","text":"P"},{"bold":true,"color":"#F6E168","text":"h"},{"bold":true,"color":"#EDDF5C","text":"a"},{"bold":true,"color":"#F6DE56","text":"s"},{"bold":true,"color":"#FFDC4F","text":"e "},{"bold":true,"color":"#FFE47A","text":"2"},"."]
+
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1300_points_max_health_upgrade"}]}]}] if score @s Points matches 1300.. run playsound minecraft:entity.illusioner.prepare_blindness master @a ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1650_points_max_health_upgrade"}]}]}] if score @s Points matches 1650.. run playsound minecraft:entity.warden.heartbeat master @s ~ ~ ~ 1 2
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2050_points_max_health_upgrade"}]}]}] if score @s Points matches 2050.. run playsound minecraft:entity.wither.ambient master @s ~ ~ ~ 1 .7
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2500_points_max_health_upgrade"}]}]}] if score @s Points matches 2500.. run playsound minecraft:entity.zombie.attack_iron_door master @s ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3000_points_max_health_upgrade"}]}]}] if score @s Points matches 3000.. run playsound minecraft:entity.illusioner.prepare_blindness master @s ~ ~ ~ 1 0.1 1
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_max_health_upgrade"}]}]}] if score @s Points matches 3500.. at @s run function kiwi2:points/sequence_fx
+
+    # Sequence 8
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4025_points_max_health_upgrade"}]}]}] if score @s Points matches 4025.. run tellraw @s {"text": "Another burst of vigor flows through you."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4575_points_max_health_upgrade"}]}]}] if score @s Points matches 4575.. run tellraw @s {"text": "You can feel yourself getting stronger."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5150_points_max_health_upgrade"}]}]}] if score @s Points matches 5150.. run tellraw @s {"text": "Your senses become ever more refined."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5750_points_max_health_upgrade"}]}]}] if score @s Points matches 5750.. run tellraw @s {"text": "A familiar feeling rests in your chest..."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:6375_points_max_health_upgrade"}]}]}] if score @s Points matches 6375.. run tellraw @s {"text": "The weight in your chest starts to lighten. You are close."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_max_health_upgrade"}]}]}] if score @s Points matches 7000.. run tellraw @s {"text": "You feel mastery over your body."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_max_health_upgrade"}]}]}] if score @s Points matches 7000.. unless score Sequence8 SequenceCount matches 1.. run tellraw @a ["A threshold has been crossed... ",{"bold":true,"selector":"@s"}," was the first to reach ",{"bold":true,"color":"#F7A539","text":"P"},{"bold":true,"color":"#FBB439","text":"h"},{"bold":true,"color":"#FFC338","text":"a"},{"bold":true,"color":"#FFC131","text":"s"},{"bold":true,"color":"#FFBF29","text":"e "},{"bold":true,"color":"#FF9436","text":"3"},"."]
+
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4025_points_max_health_upgrade"}]}]}] if score @s Points matches 4025.. at @s run playsound minecraft:entity.warden.heartbeat master @s ~ ~ ~ 1 2
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4575_points_max_health_upgrade"}]}]}] if score @s Points matches 4575.. at @s run playsound minecraft:entity.zombie.attack_iron_door master @s ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5150_points_max_health_upgrade"}]}]}] if score @s Points matches 5150.. at @s run playsound minecraft:entity.creaking.freeze master @s ~ ~ ~ 1 0.1 1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5750_points_max_health_upgrade"}]}]}] if score @s Points matches 5750.. at @s run playsound minecraft:entity.illusioner.prepare_blindness master @a ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:6375_points_max_health_upgrade"}]}]}] if score @s Points matches 6375.. at @s run playsound minecraft:entity.wither.ambient master @s ~ ~ ~ 0.2 2
+execute unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_max_health_upgrade"}]}]}] if score @s Points matches 7000.. at @s run function kiwi2:points/sequence_fx
+
+    # Sequence 7
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7675_points_max_health_upgrade"}]}]}] if score @s Points matches 7675.. run tellraw @s {"text": "Endurance deepens, so does your courage."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:8375_points_max_health_upgrade"}]}]}] if score @s Points matches 8375.. run tellraw @s {"text": "Your strikes carry greater weight."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9100_points_max_health_upgrade"}]}]}] if score @s Points matches 9100.. run tellraw @s {"text": "Raw power wells up from your body to your fists."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9850_points_max_health_upgrade"}]}]}] if score @s Points matches 9850.. run tellraw @s {"text": "You start to see it clearly in the distance now."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:10675_points_max_health_upgrade"}]}]}] if score @s Points matches 10675.. run tellraw @s {"text": "You approach closer towards greater strength."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_max_health_upgrade"}]}]}] if score @s Points matches 11500.. run tellraw @s {"text": "Your movements feel refined, there is weight behind each step."}
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_max_health_upgrade"}]}]}] if score @s Points matches 11500.. unless score Sequence7 SequenceCount matches 1.. run tellraw @a ["A threshold has been crossed... ",{"bold":true,"selector":"@s"}," was the first to reach ",{"bold":true,"color":"#23B82D","text":"P"},{"bold":true,"color":"#39BC33","text":"h"},{"bold":true,"color":"#4EBF38","text":"a"},{"bold":true,"color":"#52B939","text":"s"},{"bold":true,"color":"#55B339","text":"e "},{"bold":true,"color":"#72D640","text":"4"},"."]
+
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7675_points_max_health_upgrade"}]}]}] if score @s Points matches 7675.. at @s run playsound minecraft:block.fire.ambient master @s ~ ~ ~ 1 2
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:8375_points_max_health_upgrade"}]}]}] if score @s Points matches 8375.. at @s run playsound minecraft:entity.player.attack.sweep master @s ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9100_points_max_health_upgrade"}]}]}] if score @s Points matches 9100.. at @s run playsound minecraft:entity.player.attack.strong master @s ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9850_points_max_health_upgrade"}]}]}] if score @s Points matches 9850.. at @s run playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 1 2
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:10675_points_max_health_upgrade"}]}]}] if score @s Points matches 10675.. at @s run playsound minecraft:entity.illusioner.prepare_mirror master @a ~ ~ ~ 1 .1
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_max_health_upgrade"}]}]}] if score @s Points matches 11500.. at @s run function kiwi2:points/sequence_fx
+
+# Point Milestones FX
+# Max Health
+    # Sequence 10
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:100_points_max_health_upgrade"}]}]}] if score @s Points matches 100.. run attribute @s max_health modifier add 100_points_max_health_upgrade 2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:200_points_max_health_upgrade"}]}]}] if score @s Points matches 200.. run attribute @s max_health modifier add 200_points_max_health_upgrade 2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:325_points_max_health_upgrade"}]}]}] if score @s Points matches 325.. run attribute @s max_health modifier add 325_points_max_health_upgrade 2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:500_points_max_health_upgrade"}]}]}] if score @s Points matches 500.. run attribute @s max_health modifier add 500_points_max_health_upgrade 2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:750_points_max_health_upgrade"}]}]}] if score @s Points matches 750.. run attribute @s max_health modifier add 750_points_max_health_upgrade 2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_max_health_upgrade"}]}]}] if score @s Points matches 1000.. run attribute @s max_health modifier add 1000_points_max_health_upgrade 0.10 add_multiplied_base
+    # Sequence 9
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1300_points_max_health_upgrade"}]}]}] if score @s Points matches 1300.. run attribute @s max_health modifier add 1300_points_max_health_upgrade 2.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1650_points_max_health_upgrade"}]}]}] if score @s Points matches 1650.. run attribute @s max_health modifier add 1650_points_max_health_upgrade 2.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2050_points_max_health_upgrade"}]}]}] if score @s Points matches 2050.. run attribute @s max_health modifier add 2050_points_max_health_upgrade 2.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2500_points_max_health_upgrade"}]}]}] if score @s Points matches 2500.. run attribute @s max_health modifier add 2500_points_max_health_upgrade 2.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3000_points_max_health_upgrade"}]}]}] if score @s Points matches 3000.. run attribute @s max_health modifier add 3000_points_max_health_upgrade 2.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_max_health_upgrade"}]}]}] if score @s Points matches 3500.. run attribute @s max_health modifier add 3500_points_max_health_upgrade 0.11 add_multiplied_base
+    # Sequence 8
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4025_points_max_health_upgrade"}]}]}] if score @s Points matches 4025.. run attribute @s max_health modifier add 4025_points_max_health_upgrade 3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4575_points_max_health_upgrade"}]}]}] if score @s Points matches 4575.. run attribute @s max_health modifier add 4575_points_max_health_upgrade 3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5150_points_max_health_upgrade"}]}]}] if score @s Points matches 5150.. run attribute @s max_health modifier add 5150_points_max_health_upgrade 3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5750_points_max_health_upgrade"}]}]}] if score @s Points matches 5750.. run attribute @s max_health modifier add 5750_points_max_health_upgrade 3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:6375_points_max_health_upgrade"}]}]}] if score @s Points matches 6375.. run attribute @s max_health modifier add 6375_points_max_health_upgrade 3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_max_health_upgrade"}]}]}] if score @s Points matches 7000.. run attribute @s max_health modifier add 7000_points_max_health_upgrade 0.12 add_multiplied_base
+    # Sequence 7
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7675_points_max_health_upgrade"}]}]}] if score @s Points matches 7675.. run attribute @s max_health modifier add 7675_points_max_health_upgrade 3.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:8375_points_max_health_upgrade"}]}]}] if score @s Points matches 8375.. run attribute @s max_health modifier add 8375_points_max_health_upgrade 3.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9100_points_max_health_upgrade"}]}]}] if score @s Points matches 9100.. run attribute @s max_health modifier add 9100_points_max_health_upgrade 3.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9850_points_max_health_upgrade"}]}]}] if score @s Points matches 9850.. run attribute @s max_health modifier add 9850_points_max_health_upgrade 3.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:10675_points_max_health_upgrade"}]}]}] if score @s Points matches 10675.. run attribute @s max_health modifier add 10675_points_max_health_upgrade 3.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_max_health_upgrade"}]}]}] if score @s Points matches 11500.. run attribute @s max_health modifier add 11500_points_max_health_upgrade 0.13 add_multiplied_base
+
+# Atk Dmg
+    # Sequence 10
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:100_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 100.. run attribute @s attack_damage modifier add 100_points_attack_damage_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:200_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 200.. run attribute @s attack_damage modifier add 200_points_attack_damage_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:325_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 325.. run attribute @s attack_damage modifier add 325_points_attack_damage_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:500_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 500.. run attribute @s attack_damage modifier add 500_points_attack_damage_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:750_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 750.. run attribute @s attack_damage modifier add 750_points_attack_damage_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 1000.. run attribute @s attack_damage modifier add 1000_points_attack_damage_upgrade 0.05 add_multiplied_base
+    # Sequence 9
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1300_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 1300.. run attribute @s attack_damage modifier add 1300_points_attack_damage_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1650_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 1650.. run attribute @s attack_damage modifier add 1650_points_attack_damage_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2050_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 2050.. run attribute @s attack_damage modifier add 2050_points_attack_damage_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2500_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 2500.. run attribute @s attack_damage modifier add 2500_points_attack_damage_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3000_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 3000.. run attribute @s attack_damage modifier add 3000_points_attack_damage_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 3500.. run attribute @s attack_damage modifier add 3500_points_attack_damage_upgrade 0.7 add_multiplied_base
+    # Sequence 8
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4025_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 4025.. run attribute @s attack_damage modifier add 4025_points_attack_damage_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:4575_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 4575.. run attribute @s attack_damage modifier add 4575_points_attack_damage_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5150_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 5150.. run attribute @s attack_damage modifier add 5150_points_attack_damage_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:5750_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 5750.. run attribute @s attack_damage modifier add 5750_points_attack_damage_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:6375_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 6375.. run attribute @s attack_damage modifier add 6375_points_attack_damage_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 7000.. run attribute @s attack_damage modifier add 7000_points_attack_damage_upgrade 0.9 add_multiplied_base
+    # Sequence 7
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7675_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 7675.. run attribute @s attack_damage modifier add 7675_points_attack_damage_upgrade 0.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:8375_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 8375.. run attribute @s attack_damage modifier add 8375_points_attack_damage_upgrade 0.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9100_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 9100.. run attribute @s attack_damage modifier add 9100_points_attack_damage_upgrade 0.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:9850_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 9850.. run attribute @s attack_damage modifier add 9850_points_attack_damage_upgrade 0.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:10675_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 10675.. run attribute @s attack_damage modifier add 10675_points_attack_damage_upgrade 0.5 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_attack_damage_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 11500.. run attribute @s attack_damage modifier add 11500_points_attack_damage_upgrade 0.11 add_multiplied_base
+
+# Atk Spd
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_attack_speed_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 1000.. run attribute @s attack_speed modifier add 1000_points_attack_speed_upgrade 0.2 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3500_points_attack_speed_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 3500.. run attribute @s attack_speed modifier add 3500_points_attack_speed_upgrade 0.3 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:7000_points_attack_speed_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 7000.. run attribute @s attack_speed modifier add 7000_points_attack_speed_upgrade 0.4 add_value
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:11500_points_attack_speed_upgrade"}]}]}] if score @s[tag=!limitbreak_non_melee_class] Points matches 11500.. run attribute @s attack_speed modifier add 11500_points_attack_speed_upgrade 0.5 add_value
+
+# Armor
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:500_points_armor_upgrade"}]}]}] if score @s Points matches 500.. run attribute @s armor modifier add 500_points_armor_upgrade 0.02 add_multiplied_base
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1000_points_armor_upgrade"}]}]}] if score @s Points matches 1000.. run attribute @s armor modifier add 1000_points_armor_upgrade 0.02 add_multiplied_base
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:1500_points_armor_upgrade"}]}]}] if score @s Points matches 1500.. run attribute @s armor modifier add 1500_points_armor_upgrade 0.02 add_multiplied_base
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2000_points_armor_upgrade"}]}]}] if score @s Points matches 2000.. run attribute @s armor modifier add 2000_points_armor_upgrade 0.02 add_multiplied_base
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:2500_points_armor_upgrade"}]}]}] if score @s Points matches 2500.. run attribute @s armor modifier add 2500_points_armor_upgrade 0.02 add_multiplied_base
+execute as @a unless entity @s[nbt={attributes:[{modifiers:[{id:"minecraft:3000_points_armor_upgrade"}]}]}] if score @s Points matches 3000.. run attribute @s armor modifier add 3000_points_armor_upgrade 0.02 add_multiplied_base

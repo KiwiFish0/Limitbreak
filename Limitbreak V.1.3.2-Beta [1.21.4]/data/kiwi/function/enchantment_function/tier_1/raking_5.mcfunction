@@ -1,0 +1,2 @@
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run damage @s 3 player_attack
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run particle sweep_attack ~ ~1 ~ 0.1 0.1 0.1 1 1

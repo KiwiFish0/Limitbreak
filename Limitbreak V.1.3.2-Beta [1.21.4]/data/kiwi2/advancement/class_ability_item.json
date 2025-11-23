@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "class_ability_use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:echo_shard",
+          "components": {
+            "minecraft:custom_data": "{class_ability_item:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/class_ability_consume"
+  }
+}

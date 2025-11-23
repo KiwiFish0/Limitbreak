@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "text": "[Crescent Slash]",
+    "color": "#faab00"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/crescent_slash"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:hoes",
+  "weight": 2
+} 

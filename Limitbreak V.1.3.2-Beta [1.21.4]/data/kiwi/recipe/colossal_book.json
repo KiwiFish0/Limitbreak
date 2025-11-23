@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "B": [
+        "minecraft:heavy_core"
+      ],
+      "F": [
+        "minecraft:dragon_breath"
+      ],
+      "G": [
+        "anvil"
+      ],
+      "Z": [
+        "minecraft:netherite_ingot"
+      ],
+      "#": [
+        "minecraft:iron_block"
+      ]
+    },
+    "pattern": [
+      "ZZZ",
+      "FBF",
+      "#G#"
+    ],
+    "result": {
+      "components": {
+        "minecraft:stored_enchantments": {
+          "kiwi:colossal": 1
+        },
+        "minecraft:lore": [
+          "\"Bestows immense strength and area attacks, but with drawbacks.\""
+        ]
+      },
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    }
+  }

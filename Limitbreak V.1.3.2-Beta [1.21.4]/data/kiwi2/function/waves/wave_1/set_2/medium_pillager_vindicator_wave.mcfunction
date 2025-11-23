@@ -1,0 +1,7 @@
+execute if score world Time matches 18001 run title @a subtitle [{"text":"30 ","color":"yellow","bold":false},{"text":"Pillagers ","color":"#c7c7c7","bold":true},{"text":"10 ","color":"green","bold":false},{"text":"Vindicators","color":"#9e9e9e","bold":true}]
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon vindicator ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:iron_axe",count:1},{}],DeathLootTable:"kiwi2:entities/2to4_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon pillager ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:crossbow",count:1},{}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon pillager ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:crossbow",count:1},{}],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon pillager ~ ~50 ~ {Tags:["wave_mob"],HandItems:[{id:"minecraft:crossbow",count:1},{}],DeathLootTable:""}
+execute if score world Time matches 18011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=pillager,tag=wave_mob]
+execute if score world Time matches 18011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=vindicator,tag=wave_mob]

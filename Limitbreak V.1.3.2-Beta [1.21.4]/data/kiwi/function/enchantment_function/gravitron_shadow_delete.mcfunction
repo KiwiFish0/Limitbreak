@@ -1,0 +1,1 @@
+kill @e[tag=gravitron_shadow]

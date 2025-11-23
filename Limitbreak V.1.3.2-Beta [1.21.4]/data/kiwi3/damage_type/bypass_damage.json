@@ -1,0 +1,7 @@
+{
+	"exhaustion": 0,
+ 	"message_id": "damage",
+	"scaling": "never",
+    "effects": "thorns",
+	"death_message_type": "default"
+}

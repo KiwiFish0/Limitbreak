@@ -1,0 +1,1 @@
+scoreboard players set passive_points world_upgrades 4

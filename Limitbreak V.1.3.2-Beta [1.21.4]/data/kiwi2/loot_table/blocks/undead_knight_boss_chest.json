@@ -1,0 +1,316 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 13,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:armor",
+                      "id": "spectral_armor_attribute",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "minecraft:armor_toughness",
+                      "id": "spectral_armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "minecraft:knockback_resistance",
+                      "id": "spectral_knockback_resist",
+                      "amount": 0.02,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:profile": {
+                  "name": "xDarklightx"
+                },
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#53C2D4\",\"italic\":false,\"text\":\"S\"},{\"color\":\"#50CBD5\",\"text\":\"p\"},{\"color\":\"#4DD4D6\",\"text\":\"e\"},{\"color\":\"#4ADDD6\",\"text\":\"c\"},{\"color\":\"#48E7D7\",\"text\":\"t\"},{\"color\":\"#45F0D8\",\"text\":\"r\"},{\"color\":\"#42F9D9\",\"text\":\"a\"},{\"color\":\"#3FFDD9\",\"text\":\"l \"},{\"color\":\"#3AF8DA\",\"text\":\"K\"},{\"color\":\"#36F2DB\",\"text\":\"n\"},{\"color\":\"#32EDDD\",\"text\":\"i\"},{\"color\":\"#2EE7DE\",\"text\":\"g\"},{\"color\":\"#2AE1DF\",\"text\":\"h\"},{\"color\":\"#25DCE0\",\"text\":\"t \"},{\"color\":\"#26DCE3\",\"text\":\"H\"},{\"color\":\"#28E0E8\",\"text\":\"e\"},{\"color\":\"#2AE3EC\",\"text\":\"l\"},{\"color\":\"#2CE7F1\",\"text\":\"m\"},{\"color\":\"#2FEAF6\",\"text\":\"e\"},{\"color\":\"#33F1FF\",\"text\":\"t\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A scarred helmet which has survived for centuries under a skilled swordsman.\"}"
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:entity_interaction_range",
+                      "id": "phantasm_entity_interaction_range",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:attack_damage",
+                      "id": "phantasm_attack_damage",
+                      "amount": 6,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "type": "minecraft:attack_speed",
+                      "id": "phantasm_attack_speed",
+                      "amount": -0.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#0EE1E8\",\"italic\":false,\"text\":\"P\"},{\"color\":\"#12E8E3\",\"text\":\"h\"},{\"color\":\"#17EFDE\",\"text\":\"a\"},{\"color\":\"#1BF6D9\",\"text\":\"n\"},{\"color\":\"#20FDD5\",\"text\":\"t\"},{\"color\":\"#24F1D0\",\"text\":\"a\"},{\"color\":\"#28DCCB\",\"text\":\"s\"},{\"color\":\"#2BC6C7\",\"text\":\"m \"},{\"color\":\"#2FB1C2\",\"text\":\"B\"},{\"color\":\"#31A9C4\",\"text\":\"l\"},{\"color\":\"#30BBD3\",\"text\":\"a\"},{\"color\":\"#2ECDE1\",\"text\":\"d\"},{\"color\":\"#2BF1FF\",\"text\":\"e\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A translucent ghostly blade which extends to reach enemies.\"}"
+                ],
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "kiwi:sacred": 2
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "kiwi:sacred": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Crystal",
+                "bold": true,
+                "color": "#e79e00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "sound": "minecraft:block.trial_spawner.open_shutter",
+                  "has_consume_particles": true
+                },
+                "minecraft:item_model": "minecraft:resin_clump",
+                "rarity": "epic",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

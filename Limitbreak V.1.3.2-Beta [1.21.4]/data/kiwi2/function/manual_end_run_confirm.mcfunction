@@ -1,0 +1,2 @@
+tellraw @s [{"bold":true,"text":"Do you really want to end the run? "},{"bold":true,"clickEvent":{"action":"run_command","value":"/function kiwi2:end_run"},"color":"green","text":"[YES]","hoverEvent": {"action": "show_text","value":[{"text":"Click to end the run prematurely."}]}}]
+scoreboard players set @s EndRun 0

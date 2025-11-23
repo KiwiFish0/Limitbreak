@@ -1,0 +1,10 @@
+fill ~-2 ~-2 ~-2 ~2 ~1 ~2 minecraft:mud replace #minecraft:mineable/shovel
+fill ~-2 ~-4 ~-2 ~2 ~3 ~2 minecraft:mud replace moss_block
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:fire replace #minecraft:leaves
+fill ~-4 ~-2 ~-4 ~4 ~12 ~4 minecraft:magma_block replace #minecraft:mineable/pickaxe
+fill ~-4 ~-2 ~-4 ~4 ~12 ~4 minecraft:obsidian replace water
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:basalt replace #minecraft:logs
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:fire replace #minecraft:crops
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:fire replace #minecraft:flowers
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:white_stained_glass replace #minecraft:sand
+fill ~-8 ~-2 ~-8 ~8 ~12 ~8 minecraft:fire replace #minecraft:sword_efficient

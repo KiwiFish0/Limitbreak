@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:lightning_rod",
+    "B": "minecraft:iron_ingot",
+    "R": "minecraft:gunpowder",
+    "X": [
+      "minecraft:redstone_block"
+    ],
+    "F": "minecraft:fire_charge"
+  },
+  "pattern": [
+    "BFB",
+    "RSR",
+    "BXB"
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Charged Core ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a Creeper summon to infuse it with a charged core.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Upgrades:\"}",
+        "{\"color\":\"#9620b6\",\"italic\":false,\"text\":\"[ SKILL ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Supercharges this entity's explosions with explosive lightning.\"}]}",
+        "{\"color\":\"#b62020\",\"italic\":false,\"text\":\"[ ON-DEATH ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Strikes lightning on nearby entities at a small radius.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Works with other explosive upgrades additively.\"}"
+      ],
+      "minecraft:rarity": "rare",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_charged_core:1b,necromancer_soul_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:entity.firework_rocket.large_blast",
+        "has_consume_particles": false
+      },
+      "item_model": "lightning_rod"
+    }
+  }
+}

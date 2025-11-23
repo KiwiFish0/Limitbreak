@@ -1,0 +1,1 @@
+execute if predicate kiwi2:chance_random_20 run setblock ~ ~ ~ cobweb keep

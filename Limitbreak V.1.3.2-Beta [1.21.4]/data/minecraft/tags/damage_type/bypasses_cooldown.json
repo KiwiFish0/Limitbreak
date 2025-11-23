@@ -1,0 +1,21 @@
+{
+    "values": [
+        "kiwi2:phantom_explode_damage",
+        "kiwi2:colossal_panda_crush",
+        "kiwi2:seer_shulker_bullet_damage",
+        "kiwi2:magic_missile_damage",
+        "kiwi2:undead_knight_slice",
+        "kiwi2:living_construct_clamp",
+        "kiwi2:terminus_enderman_crush",
+        "kiwi2:seeker_shot_damage",
+        "kiwi2:heat_mantle_damage",
+        "kiwi2:magus_lightning_damage",
+        "kiwi3:bypass_damage",
+        "kiwi3:ancient_grimoire_whisper",
+        "kiwi:frostfire_damage_fire",
+        "kiwi:frostfire_damage_frost",
+        "kiwi:flower_hat_spore_damage",
+        "kiwi:crescent_slash_sweep",
+        "kiwi:oversunder_damage"
+    ]
+}

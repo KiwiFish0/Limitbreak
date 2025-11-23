@@ -1,0 +1,4 @@
+function kiwi2:reward_chest/day_40_59/eternium_mask
+function kiwi2:reward_chest/day_40_59/eternium_chestplate
+function kiwi2:reward_chest/day_40_59/eternium_leggings
+function kiwi2:reward_chest/day_40_59/eternium_boots

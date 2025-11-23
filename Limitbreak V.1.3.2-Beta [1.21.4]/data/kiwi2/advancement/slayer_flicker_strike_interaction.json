@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "holding_item": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"flicker_strike_ready\"]}",
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/slayer/flicker_strike/flicker_strike_interaction"
+  }
+}

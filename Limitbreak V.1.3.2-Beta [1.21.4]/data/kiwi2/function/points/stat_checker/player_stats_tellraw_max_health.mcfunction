@@ -1,0 +1,1 @@
+$tellraw @s [{"color": "red", "text": "Max Health: "}, {"text": "$(x)", "color": "red"}]

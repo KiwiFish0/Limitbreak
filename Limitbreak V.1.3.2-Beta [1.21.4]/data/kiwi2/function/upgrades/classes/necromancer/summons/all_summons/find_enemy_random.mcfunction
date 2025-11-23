@@ -1,0 +1,1 @@
+execute as @e[tag=necromancer_summon] at @s run damage @s 0 drown by @e[type=!player,type=!#minecraft:items_and_non_mobs,limit=1,sort=random,distance=..48,team=!Player_Glow,tag=!necromancer_summon]

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"limitbreak_interaction\",\"starting_points_upgrade\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/world_upgrades/starting_points/starting_points_upgrade"
+  }
+}

@@ -1,0 +1,1171 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 7,
+        "max": 15
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_shovel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40,
+                "min": 30
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 40,
+                "max": 60
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_shovel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:growth": 3
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:unbreaking": 4
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "bulwark_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 2,
+                  "slot": "offhand"
+                },
+                {
+                  "id": "bulwark_shield_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.025,
+                  "slot": "offhand"
+                },
+                {
+                  "id": "bulkwark_shield_attack_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -0.1,
+                  "slot": "offhand"
+                }
+              ],
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bulwark Shield",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantable": {
+                  "value": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "coldsteel_blade_attack_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 7.65,
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "coldsteel_blade_attack_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -2.3,
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "coldsteel_blade": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Coldsteel Blade",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "9 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": "1.7 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "coldsteel_boots_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 4,
+                  "slot": "feet"
+                },
+                {
+                  "id": "coldsteel_boots_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "feet"
+                },
+                {
+                  "id": "coldsteel_boots_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.15,
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "coldsteel_boots": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Coldsteel Boots",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "coldsteel_greaves_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 7,
+                  "slot": "legs"
+                },
+                {
+                  "id": "coldsteel_greaves_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "legs"
+                },
+                {
+                  "id": "coldsteel_greaves_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.15,
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "coldsteel_greaves": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Coldsteel Greaves",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "coldsteel_helmet_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 4,
+                  "slot": "head"
+                },
+                {
+                  "id": "coldsteel_helmet_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "id": "coldsteel_helmet_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.15,
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "coldsteel_helmet": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Coldsteel Helmet",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    1839851322,
+                    1058621602,
+                    -1819369254,
+                    -1697413019
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA4NzQ0NjJhN2QzNjE4ZWFmYTFjNThlZjdjNTY2ZjQ4ZDgzOGVmNTNiNGY1MjBhMzhkNGJhNmExYWRjMTgxMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "entity.breeze.idle_air"
+                },
+                "minecraft:enchantable": {
+                  "value": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "coldsteel_plate_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 9,
+                  "slot": "chest"
+                },
+                {
+                  "id": "coldsteel_plate_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "chest"
+                },
+                {
+                  "id": "coldsteel_plate_knockback_resistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.15,
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "coldsteel_plate": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:silence",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Coldsteel Plate",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "firesteel_axe_attack_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 10,
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "firesteel_axe_attack_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -2.7,
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "firesteel_axe": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Firesteel Axe",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "11 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": "1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "firesteel_boots_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "feet"
+                },
+                {
+                  "id": "firesteel_boots_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "feet"
+                },
+                {
+                  "id": "firesteel_boots_burning_time",
+                  "attribute": "minecraft:burning_time",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "feet"
+                },
+                {
+                  "id": "firesteel_boots_knockback_resistance",
+                  "attribute": "knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "firesteel_boots": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:wild",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Firesteel Boots",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "firesteel_chestplate_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 8,
+                  "slot": "chest"
+                },
+                {
+                  "id": "firesteel_chestplate_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "chest"
+                },
+                {
+                  "id": "firesteel_chestplate_burning_time",
+                  "attribute": "minecraft:burning_time",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "chest"
+                },
+                {
+                  "id": "firesteel_chestplate_knockback_resistance",
+                  "attribute": "knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "firesteel_chestplate": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:silence",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Firesteel Chestplate",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "firesteel_greaves_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 6,
+                  "slot": "legs"
+                },
+                {
+                  "id": "firesteel_greaves_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "legs"
+                },
+                {
+                  "id": "firesteel_greaves_burning_time",
+                  "attribute": "minecraft:burning_time",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "legs"
+                },
+                {
+                  "id": "firesteel_greaves_knockback_resistance",
+                  "attribute": "knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "firesteel_greaves": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:resin",
+                  "pattern": "minecraft:ward",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Firesteel Greaves",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "firesteel_helmet_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "id": "firesteel_helmet_armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "slot": "head"
+                },
+                {
+                  "id": "firesteel_helmet_burning_time",
+                  "attribute": "minecraft:burning_time",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "head"
+                },
+                {
+                  "id": "firesteel_helmet_knockback_resistance",
+                  "attribute": "knockback_resistance",
+                  "operation": "add_value",
+                  "amount": 0.1,
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "firesteel_helmet": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    975306181,
+                    -1444592087,
+                    -1442121226,
+                    767314098
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk0Y2YwNGI3ZTQ1NTllZmYyOGM4NzVjOTMzZWIwYmRhOGFiMjhlYmQ1YThlYmI3NjgxN2RjMDUwNWVjMGU0NCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "entity.blaze.ambient"
+                },
+                "minecraft:enchantable": {
+                  "value": 15
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Firesteel Helmet",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "eye_of_night": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#176121",
+                  "italic": false,
+                  "text": "E"
+                },
+                {
+                  "color": "#1A6C2B",
+                  "text": "y"
+                },
+                {
+                  "color": "#1E7736",
+                  "text": "e "
+                },
+                {
+                  "color": "#218340",
+                  "text": "o"
+                },
+                {
+                  "color": "#258E4B",
+                  "text": "f "
+                },
+                {
+                  "color": "#289955",
+                  "text": "N"
+                },
+                {
+                  "color": "#308C54",
+                  "text": "i"
+                },
+                {
+                  "color": "#397F53",
+                  "text": "g"
+                },
+                {
+                  "color": "#417351",
+                  "text": "h"
+                },
+                {
+                  "color": "#52594F",
+                  "text": "t"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "An all-seeing eye capable of assisting its wearer with various insights."
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "entity.illusioner.cast_spell"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "id": "eye_of_night_armor",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "armor_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "id": "eye_of_night_armor_toughness",
+                    "slot": "head"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_scute",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "seed_of_life": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#78E063",
+                  "italic": false,
+                  "text": "S"
+                },
+                {
+                  "color": "#5FE955",
+                  "text": "e"
+                },
+                {
+                  "color": "#46F246",
+                  "text": "e"
+                },
+                {
+                  "color": "#52EC6B",
+                  "text": "d "
+                },
+                {
+                  "color": "#5EE690",
+                  "text": "o"
+                },
+                {
+                  "color": "#60DC83",
+                  "text": "f "
+                },
+                {
+                  "color": "#62D175",
+                  "text": "L"
+                },
+                {
+                  "color": "#76E87C",
+                  "text": "i"
+                },
+                {
+                  "color": "#8AFF82",
+                  "text": "f"
+                },
+                {
+                  "color": "#78FF78",
+                  "text": "e"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "A seed constantly sprawling roots. Thrives when left undisturbed."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/end_city_treasure"
+}

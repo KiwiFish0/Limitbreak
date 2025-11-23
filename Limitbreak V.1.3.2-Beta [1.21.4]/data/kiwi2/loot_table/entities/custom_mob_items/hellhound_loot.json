@@ -1,0 +1,214 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{hellhound_tooth:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#D14343\",\"italic\":false,\"text\":\"H\"},{\"color\":\"#CC5252\",\"text\":\"e\"},{\"color\":\"#C66161\",\"text\":\"l\"},{\"color\":\"#C16565\",\"text\":\"l\"},{\"color\":\"#BC3E3E\",\"text\":\"h\"},{\"color\":\"#B81717\",\"text\":\"o\"},{\"color\":\"#B40505\",\"text\":\"u\"},{\"color\":\"#B31212\",\"text\":\"n\"},{\"color\":\"#B11E1E\",\"text\":\"d \"},{\"color\":\"#BC3737\",\"text\":\"T\"},{\"color\":\"#CF5959\",\"text\":\"o\"},{\"color\":\"#E27A7A\",\"text\":\"o\"},{\"color\":\"#E05C5C\",\"text\":\"t\"},{\"color\":\"#D10000\",\"text\":\"h\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A large tooth taken from the maw of a Hellhound, even just \"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"grazing it would cause serious bleeding.\"}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

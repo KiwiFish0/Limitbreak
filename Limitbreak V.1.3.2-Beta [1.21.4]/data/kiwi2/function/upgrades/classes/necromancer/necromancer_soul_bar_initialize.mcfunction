@@ -1,0 +1,2 @@
+execute if entity @a[scores={limitbreak_chosen_class=8},tag=necromancer_soul_bar_not_shown] run schedule function kiwi2:upgrades/classes/necromancer/necromancer_soul_bar_initialize 1t
+execute as @r[scores={limitbreak_chosen_class=8},tag=necromancer_soul_bar_not_shown,limit=1] at @s run function kiwi2:upgrades/classes/necromancer/necromancer_soul_bar_give

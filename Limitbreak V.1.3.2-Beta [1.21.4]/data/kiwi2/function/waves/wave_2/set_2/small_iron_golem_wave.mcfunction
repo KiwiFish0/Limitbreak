@@ -1,0 +1,6 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"15 ","color":"green","bold":false},{"text":"Iron Golems","color":"#cfcfcf","bold":true}]
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon iron_golem ~ ~50 ~ {DeathLootTable:"kiwi2:entities/4to6_point",Tags:["wave_mob"],attributes:[{id:"minecraft:follow_range",base:64}]}
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon iron_golem ~ ~50 ~ {DeathLootTable:"kiwi2:entities/4to6_point",Tags:["wave_mob"],attributes:[{id:"minecraft:follow_range",base:64}]}
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon iron_golem ~ ~50 ~ {DeathLootTable:"kiwi2:entities/3to5_point",Tags:["wave_mob"],attributes:[{id:"minecraft:follow_range",base:64}]}
+execute if score world Time matches 20006 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=iron_golem,tag=wave_mob]
+execute if score world Time matches 20007 run execute as @e[type=minecraft:iron_golem,tag=wave_mob] run damage @s 0.0001 minecraft:generic by @r[gamemode=survival]

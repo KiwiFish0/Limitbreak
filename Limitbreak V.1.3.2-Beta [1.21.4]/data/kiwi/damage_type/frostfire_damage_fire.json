@@ -1,0 +1,7 @@
+{
+	"exhaustion": 0.1,
+ 	"message_id": "frostfire",
+	"scaling": "never",
+    "effects": "burning",
+	"death_message_type": "default"
+}

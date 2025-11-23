@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:blaze_powder"
+    ],
+    [
+      "minecraft:stick"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blaze_powder"
+  }
+}

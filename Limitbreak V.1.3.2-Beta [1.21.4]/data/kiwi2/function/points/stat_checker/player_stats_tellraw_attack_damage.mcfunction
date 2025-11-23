@@ -1,0 +1,1 @@
+$tellraw @s [{"color": "gray", "text": "Attack Damage: "}, {"text": "$(y)", "color": "gray"}]

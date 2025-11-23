@@ -1,0 +1,803 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "string",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 13,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "kiwi:webbing": 1
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Crystal",
+                "bold": true,
+                "color": "#e79e00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "sound": "minecraft:block.trial_spawner.open_shutter",
+                  "has_consume_particles": true
+                },
+                "minecraft:item_model": "minecraft:resin_clump",
+                "rarity": "epic",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{goliath_man_eater_fang:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#D47B55\",\"italic\":false,\"text\":\"G\"},{\"bold\":true,\"italic\":false,\"color\":\"#DD7850\",\"text\":\"o\"},{\"bold\":true,\"italic\":false,\"color\":\"#E5744B\",\"text\":\"l\"},{\"bold\":true,\"italic\":false,\"color\":\"#EE7147\",\"text\":\"i\"},{\"bold\":true,\"italic\":false,\"color\":\"#F66D42\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF6A3D\",\"text\":\"t\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF633B\",\"text\":\"h \"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5C39\",\"text\":\"M\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5537\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4E35\",\"text\":\"n\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4733\",\"text\":\"-\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4A36\",\"text\":\"E\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4D39\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4F3C\",\"text\":\"t\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF523F\",\"text\":\"e\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5542\",\"text\":\"r \"},{\"bold\":true,\"italic\":false,\"color\":\"#FA533C\",\"text\":\"F\"},{\"bold\":true,\"italic\":false,\"color\":\"#F55035\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#F04E2F\",\"text\":\"n\"},{\"bold\":true,\"italic\":false,\"color\":\"#E64922\",\"text\":\"g\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"it pulses with primal predatory hunger...\"}"
+                ],
+                "minecraft:instrument": {
+                  "use_duration": 5,
+                  "range": 100,
+                  "sound_event": "entity.phantom.bite",
+                  "description": {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "A heavy jagged fang relinquished from a Goliath Man-Eater,"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{goliath_man_eater_fang:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#D47B55\",\"italic\":false,\"text\":\"G\"},{\"bold\":true,\"italic\":false,\"color\":\"#DD7850\",\"text\":\"o\"},{\"bold\":true,\"italic\":false,\"color\":\"#E5744B\",\"text\":\"l\"},{\"bold\":true,\"italic\":false,\"color\":\"#EE7147\",\"text\":\"i\"},{\"bold\":true,\"italic\":false,\"color\":\"#F66D42\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF6A3D\",\"text\":\"t\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF633B\",\"text\":\"h \"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5C39\",\"text\":\"M\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5537\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4E35\",\"text\":\"n\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4733\",\"text\":\"-\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4A36\",\"text\":\"E\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4D39\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF4F3C\",\"text\":\"t\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF523F\",\"text\":\"e\"},{\"bold\":true,\"italic\":false,\"color\":\"#FF5542\",\"text\":\"r \"},{\"bold\":true,\"italic\":false,\"color\":\"#FA533C\",\"text\":\"F\"},{\"bold\":true,\"italic\":false,\"color\":\"#F55035\",\"text\":\"a\"},{\"bold\":true,\"italic\":false,\"color\":\"#F04E2F\",\"text\":\"n\"},{\"bold\":true,\"italic\":false,\"color\":\"#E64922\",\"text\":\"g\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"it pulses with primal predatory hunger...\"}"
+                ],
+                "minecraft:instrument": {
+                  "use_duration": 5,
+                  "range": 100,
+                  "sound_event": "entity.phantom.bite",
+                  "description": {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "A heavy jagged fang relinquished from a Goliath Man-Eater,"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "M",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#CC8150"
+                  },
+                  {
+                    "text": "a",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#D57B4F"
+                  },
+                  {
+                    "text": "n",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#DF764E"
+                  },
+                  {
+                    "text": "-",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E8704D"
+                  },
+                  {
+                    "text": "E",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#F16A4C"
+                  },
+                  {
+                    "text": "a",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#FA654B"
+                  },
+                  {
+                    "text": "t",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#FB6149"
+                  },
+                  {
+                    "text": "e",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#F25E46"
+                  },
+                  {
+                    "text": "r ",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E95C44"
+                  },
+                  {
+                    "text": "C",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E05941"
+                  },
+                  {
+                    "text": "e",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#D8573F"
+                  },
+                  {
+                    "text": "p",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#CF543C"
+                  },
+                  {
+                    "text": "h",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#D35439"
+                  },
+                  {
+                    "text": "a",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#D75437"
+                  },
+                  {
+                    "text": "l",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#DC5334"
+                  },
+                  {
+                    "text": "o",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E05332"
+                  },
+                  {
+                    "text": "t",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E4532F"
+                  },
+                  {
+                    "text": "h",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E65731"
+                  },
+                  {
+                    "text": "o",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E75E36"
+                  },
+                  {
+                    "text": "r",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E8653B"
+                  },
+                  {
+                    "text": "a",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#E96C40"
+                  },
+                  {
+                    "text": "x",
+                    "bold": true,
+                    "italic": false,
+                    "color": "#EB7B4B"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "text": "A helmet carved from the ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "Goliath Man-Eater's",
+                      "color": "#936D42",
+                      "italic": false,
+                      "bold": true
+                    },
+                    {
+                      "text": " damaged head.",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "It strikes fear into its own brood, and enhances vision.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{man_eater_cephalothorax:1b}",
+                "minecraft:profile": {
+                  "id": [
+                    -1339275177,
+                    1329941719,
+                    -2024897808,
+                    -1501401745
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlMjQ4ZGEyZTEwOGYwOTgxM2E2Yjg0OGEwZmNlZjExMTMwMDk3ODE4MGVkYTQxZDNkMWE3YThlNGRiYTNjMyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "cephalothorax_max_health",
+                    "slot": "head",
+                    "amount": 4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "cephalothroax_armor",
+                    "slot": "head",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "kiwi:cephalothorax": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "",
+                "extra": [
+                  {
+                    "color": "#A12222",
+                    "text": "M",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#B02F27",
+                    "text": "a",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#BF3C2C",
+                    "text": "n",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#CD4A32",
+                    "text": "-",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#DC5737",
+                    "text": "E",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E05F3E",
+                    "text": "a",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#DF6546",
+                    "text": "t",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#DF6B4F",
+                    "text": "e",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#DE7257",
+                    "text": "r ",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#DF6E57",
+                    "text": "C",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E15F4E",
+                    "text": "a",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E35146",
+                    "text": "r",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E5423D",
+                    "text": "a",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E63A38",
+                    "text": "p",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E5453B",
+                    "text": "a",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E44F3F",
+                    "text": "c",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "color": "#E36546",
+                    "text": "e",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "",
+                  "extra": [
+                    {
+                      "color": "gray",
+                      "italic": false,
+                      "text": "The "
+                    },
+                    {
+                      "bold": true,
+                      "color": "#936D42",
+                      "italic": false,
+                      "text": "Goliath Man-Eater's"
+                    },
+                    {
+                      "color": "gray",
+                      "italic": false,
+                      "text": " carapace. Repairs from light damage."
+                    }
+                  ]
+                },
+                {
+                  "text": "The scent alone commands fear into its own brood.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{man_eater_cephalothorax:1b}",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "cephalothorax_max_health",
+                    "slot": "chest",
+                    "amount": 8,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "cephalothroax_armor",
+                    "slot": "chest",
+                    "amount": 8,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "knockback_resistance",
+                    "slot": "chest",
+                    "amount": 0.05,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "kiwi:cephalothorax": 1
+                  }
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 4532766,
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

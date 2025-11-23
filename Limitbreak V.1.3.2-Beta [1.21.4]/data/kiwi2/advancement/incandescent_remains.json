@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:blaze_powder",
+          "components": {
+            "minecraft:custom_data": {
+              "incandescent_remains": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi3:relics/incandescent_remains/incandescent_remains_consume"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "anvil_cost": 4,
+  "description": "Ravenous",
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:hoes",
+  "weight": 1,
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "kiwi:raking",
+                      "levels": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/raking_1"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "kiwi:raking",
+                      "levels": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/raking_2"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "kiwi:raking",
+                      "levels": 3
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/raking_3"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "kiwi:raking",
+                      "levels": 4
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/raking_4"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "kiwi:raking",
+                      "levels": 5
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/raking_5"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

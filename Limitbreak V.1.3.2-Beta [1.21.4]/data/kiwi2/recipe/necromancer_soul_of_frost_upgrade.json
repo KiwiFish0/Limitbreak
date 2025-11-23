@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "I": "minecraft:ice",
+    "B": "minecraft:bone",
+    "R": "minecraft:snowball"
+  },
+  "pattern": [
+    "BSB",
+    "RIR",
+    "BSB"
+  ],
+  "result": {
+    "id": "minecraft:bone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Soul of Frost ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a Skeleton summon to evolve it into a Stray.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Upgrades:\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"red\",\"bold\":false,\"italic\":false,\"text\":\"+10 Health\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"blue\",\"bold\":false,\"italic\":false,\"text\":\"+0.1 Movement Speed\"}]}",
+        "{\"color\":\"#2070b6\",\"italic\":false,\"text\":\"[ ON-HIT ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Arrows shot by this entity apply the \"},{\"color\":\"#814086\",\"bold\":false,\"italic\":false,\"text\":\"Slowness I\"},{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\" debuff on enemies.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Existing weapons and armors will be carried over.\"}"
+      ],
+      "minecraft:rarity": "uncommon",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_soul_of_frost:1b,necromancer_soul_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:entity.skeleton.converted_to_stray",
+        "has_consume_particles": false
+      },
+      "minecraft:item_model": "minecraft:ender_eye"
+    }
+  }
+}

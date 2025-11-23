@@ -1,0 +1,97 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": ""
+  },
+  "max_cost": {
+    "base": 41,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "minecraft:blaze_rod",
+  "weight": 2,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "cinderstorm_rod_cooldown": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:blaze_rod",
+                  "components": {
+                    "minecraft:enchantments": {
+                      "levels": {
+                        "kiwi:cinderstorm_rod": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/cinderstorm_rod_fireball"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "cinderstorm_rod_cooldown": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              },
+              "equipment": {
+                "offhand": {
+                  "items": "minecraft:blaze_rod",
+                  "components": {
+                    "minecraft:enchantments": {
+                      "levels": {
+                        "kiwi:cinderstorm_rod": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/cinderstorm_rod_fire_cloak"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "anvil_cost": 1,
+    "description": "Wound",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": [
+              "minecraft:wither"
+            ],
+            "min_duration": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "max_duration": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "min_amplifier": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "max_amplifier": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            }
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kiwi:enchantment_function/wound"
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 80,
+      "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 30,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:axes",
+    "weight": 1
+  }

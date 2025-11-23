@@ -1,0 +1,1 @@
+kill @e[type=#impact_projectiles,tag=eye_of_night_blocked]

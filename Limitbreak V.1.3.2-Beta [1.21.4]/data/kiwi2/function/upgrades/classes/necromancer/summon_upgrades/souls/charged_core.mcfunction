@@ -1,0 +1,14 @@
+execute unless entity @n[distance=..3,tag=creeper,tag=!charged_core,type=creeper] run title @s actionbar {"color":"red", "text": "No valid summons nearby!"}
+execute unless entity @n[distance=..3,tag=creeper,tag=!charged_core,type=creeper] run playsound entity.arrow.hit_player master @s ~ ~ ~ 1 0.5
+execute unless entity @n[distance=..3,tag=creeper,tag=!charged_core,type=creeper] run give @s minecraft:gunpowder[minecraft:custom_name='{"italic":false,"text":"[ Charged Core ]"}',minecraft:lore=['{"color":"gray","italic":false,"text":"[","extra":[{"color":"dark_green","bold":false,"italic":false,"keybind":"key.use"},{"color":"gray","italic":false,"text":"] on a Creeper summon to infuse it with a charged core."}]}','{"text":""}','{"color":"gray","italic":false,"text":"Upgrades:"}','{"color":"#9620b6","italic":false,"text":"[ SKILL ] ","extra":[{"color":"gray","bold":false,"italic":false,"text":"Supercharges this entity\'s explosions with explosive lightning."}]}','{"color":"#b62020","italic":false,"text":"[ ON-DEATH ] ","extra":[{"color":"gray","bold":false,"italic":false,"text":"Strikes lightning on nearby entities at a small radius."}]}','{"text":""}','{"color":"gray","italic":false,"text":"Works with other explosive upgrades additively."}'],minecraft:rarity=rare,minecraft:enchantment_glint_override=true,minecraft:custom_data={necromancer_charged_core:1b,necromancer_soul_upgrade:1b},minecraft:consumable={consume_seconds:0,animation:none,sound:"minecraft:entity.firework_rocket.large_blast",has_consume_particles:false},minecraft:item_model="lightning_rod"] 1
+
+execute if entity @n[distance=..3,tag=creeper,tag=!charged_core,type=creeper] run tag @n[distance=..3,tag=creeper,tag=!charged_core,type=creeper] add new_charged_core
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run particle electric_spark ~ ~1 ~ 1.5 1.5 1.5 0 50 normal
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run particle minecraft:ominous_spawning ~ ~1 ~ 1.5 1.5 1.5 0 80 normal
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run particle explosion ~ ~1 ~ 0.5 0.5 0.5 0 5 normal
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run data merge entity @s {powered:true}
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s on passengers run tag @s add charged_core_slime
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run summon lightning_bolt ~ ~5 ~
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run playsound minecraft:block.trial_spawner.about_to_spawn_item master @a[distance=..24] ~ ~ ~ 1 2
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run tag @s add charged_core
+execute as @n[distance=..3,tag=new_charged_core,type=creeper] at @s run tag @s remove new_charged_core

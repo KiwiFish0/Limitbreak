@@ -1,0 +1,12 @@
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] run schedule function kiwi3:relics/ancient_grimoire/ancient_grimoire_whisper_damage 1t
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1..100 run damage @s 1 kiwi3:ancient_grimoire_whisper at ~ ~ ~
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1..100 run scoreboard players remove @s ancient_grimoire_whisper 1
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1..100 run particle block_crumble{block_state:"redstone_block"} ~ ~1 ~ 0.5 0.7 0.5 0.05 2
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 100 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 80 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 60 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 40 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 20 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1 run particle soul_fire_flame ~ ~1 ~ 0.5 0.7 0.5 0.05 20
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1 run particle soul ~ ~1 ~ 0.5 0.7 0.5 0.05 40
+execute as @e[tag=ancient_grimoire_whisper,scores={ancient_grimoire_whisper=1..100}] at @s if score @s ancient_grimoire_whisper matches 1 run function kiwi3:relics/ancient_grimoire/ancient_grimoire_whisper_tag_remove

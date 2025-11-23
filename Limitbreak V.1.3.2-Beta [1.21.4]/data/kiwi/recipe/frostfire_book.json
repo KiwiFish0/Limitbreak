@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:netherite_ingot",
+    "X": "minecraft:fire_charge",
+    "B": [
+      "minecraft:nether_star"
+    ],
+    "F": [
+      "minecraft:blue_ice"
+    ]
+  },
+  "pattern": [
+    "###",
+    "FBX",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "kiwi:frostfire": 1
+      },
+      "minecraft:lore": [
+        "\"A devastating array of debuffs and afflictions.\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
+}

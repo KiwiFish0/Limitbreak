@@ -1,0 +1,4 @@
+tellraw @a[distance=..35] [{"color":"white","text":"<"},{"color":"green","selector":"@s"},{"color":"white","text":">"},{"bold":true,"color":"#673A85","text":" Murꙇur."}]
+playsound minecraft:entity.evoker.cast_spell master @a[distance=..5] ~ ~ ~ 0.2 1.5
+playsound minecraft:entity.breeze.idle_ground master @a[distance=..5] ~ ~ ~ 1 1.4
+summon area_effect_cloud ~ ~ ~ {Particle:{type:"smoke"},Radius:1f,RadiusPerTick:0.04f,Duration:300,potion_contents:{custom_color:3845058,custom_effects:[{id:"minecraft:slowness",amplifier:255,duration:20,show_particles:0b},{id:"minecraft:wither",amplifier:255,duration:20,show_particles:0b}]}}

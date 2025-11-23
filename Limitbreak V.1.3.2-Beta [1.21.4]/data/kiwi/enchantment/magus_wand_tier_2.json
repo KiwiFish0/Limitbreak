@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 4,
+  "description": "Tier 2",
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "primary_items": [
+    "minecraft:amethyst_shard",
+    "minecraft:blaze_rod",
+    "minecraft:breeze_rod",
+    "minecraft:stick"
+  ],
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:amethyst_shard",
+    "minecraft:blaze_rod",
+    "minecraft:breeze_rod",
+    "minecraft:stick"
+  ],
+  "weight": 1,
+  "effects": {}
+}

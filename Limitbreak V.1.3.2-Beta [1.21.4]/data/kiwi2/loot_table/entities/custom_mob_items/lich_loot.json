@@ -1,0 +1,293 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#51E0C4\",\"italic\":false,\"text\":\"S\"},{\"color\":\"#4FE0C8\",\"text\":\"o\"},{\"color\":\"#4EE0CC\",\"text\":\"u\"},{\"color\":\"#4CE0D0\",\"text\":\"l \"},{\"color\":\"#4BE0D5\",\"text\":\"i\"},{\"color\":\"#47DCD4\",\"text\":\"n \"},{\"color\":\"#43D6D0\",\"text\":\"a \"},{\"color\":\"#3FD1CD\",\"text\":\"B\"},{\"color\":\"#3BCBC9\",\"text\":\"o\"},{\"color\":\"#37C8C6\",\"text\":\"t\"},{\"color\":\"#36CAC4\",\"text\":\"t\"},{\"color\":\"#34CCC1\",\"text\":\"l\"},{\"color\":\"#30D1BC\",\"text\":\"e\"}]",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:thick",
+                  "custom_color": 6680060,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 1,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 1,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"The soul of a Lich which retreated into a bottle after being defeated.\"}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

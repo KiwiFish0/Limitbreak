@@ -1,0 +1,3 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"1 ","color":"green","bold":false},{"text":"Warden","color":"#122d66","bold":true}]
+execute if score world Time matches 20010 run execute at @r[gamemode=survival] run summon warden ~ ~50 ~ {DeathLootTable:"kiwi2:entities/75to90_point",Tags:["wave_mob"],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
+execute if score world Time matches 20011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=warden, tag=wave_mob]

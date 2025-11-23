@@ -1,0 +1,6 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"30 ","color":"green","bold":false},{"text":"Blazes","color":"#ee7f00","bold":true}]
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon blaze ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon blaze ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 20001..20010 run execute at @r[gamemode=survival] run summon bat ~ ~50 ~ {Silent:1b,Tags:["wave_mob","vehicle_mob"],Passengers:[{id:"minecraft:blaze",DeathLootTable:"kiwi2:entities/2to4_point",Tags:["wave_mob"]}],active_effects:[{id:"minecraft:fire_resistance",amplifier:255,duration:199999980,show_particles:0b,show_icon:0b,ambient:0b},{id:"minecraft:invisibility",amplifier:1,duration:199999980,show_particles:0b,show_icon:0b,ambient:0b}]}
+execute if score world Time matches 20011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=blaze, tag=wave_mob]
+execute if score world Time matches 20011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=bat, tag=wave_mob]

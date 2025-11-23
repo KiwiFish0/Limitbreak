@@ -1,0 +1,3 @@
+execute at @a run summon firework_rocket ~ ~2 ~ {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",has_twinkle:true,has_trail:true,colors:[I;10878807,6418431],fade_colors:[I;8383395]}]}}}}
+playsound minecraft:music_disc.creator master @a ~ ~ ~ 10000 1
+tellraw @a ["Congratulations! you have finished the run. Click ",{"bold":true,"color":"yellow","text":"[RETURN] ","clickEvent":{"action":"run_command","value":"/function kiwi2:finish_run"},"hoverEvent": {"action": "show_text","value": "Teleport back to the base and claim your rewards."}},"to teleport back to base."]

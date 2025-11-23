@@ -1,0 +1,5 @@
+advancement revoke @s only kiwi:gravity_wand_shadow
+schedule function kiwi:enchantment_function/gravitron_shadow_delete 2t
+execute unless entity @e[tag=gravitron_shadow] run summon armor_stand ^ ^ ^10 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["gravitron_shadow"],ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;1048396531,2059159011,-1939323280,-630683356],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIwMWFlMWE4YTA0ZGY1MjY1NmY1ZTQ4MTNlMWZiY2Y5Nzg3N2RiYmZiYzQyNjhkMDQzMTZkNmY5Zjc1MyJ9fX0="}]}}}]}
+tp @e[tag=gravitron_shadow,limit=1,sort=nearest] ^ ^ ^10
+execute unless entity @a[advancements={kiwi:gravity_wand_shadow=false}] if entity @e[tag=gravitron_shadow] run kill @e[tag=gravitron_shadow]

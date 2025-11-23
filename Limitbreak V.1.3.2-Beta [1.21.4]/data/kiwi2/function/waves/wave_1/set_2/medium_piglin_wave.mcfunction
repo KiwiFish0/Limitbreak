@@ -1,0 +1,7 @@
+execute if score world Time matches 18001 run title @a subtitle [{"text":"50 ","color":"yellow","bold":false},{"text":"Piglins","color":"#e37200","bold":true}]
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon piglin ~ ~50 ~ {IsImmuneToZombification:1b,Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon piglin ~ ~50 ~ {IsImmuneToZombification:1b,Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point"}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon piglin ~ ~50 ~ {IsImmuneToZombification:1b,Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1_point",HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon piglin ~ ~50 ~ {IsImmuneToZombification:1b,Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1to3_point",HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score world Time matches 18001..18010 run execute at @r[gamemode=survival] run summon piglin ~ ~50 ~ {IsImmuneToZombification:1b,Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/2to4_point",HandItems:[{id:"minecraft:iron_sword",count:1},{}]}
+execute if score world Time matches 18011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=piglin, tag=wave_mob]

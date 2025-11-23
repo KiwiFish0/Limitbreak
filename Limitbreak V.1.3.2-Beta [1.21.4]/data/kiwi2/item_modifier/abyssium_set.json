@@ -1,0 +1,21 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "\"SET BONUS:\"",
+        "color": "#f6fa00",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Abyssal Manifestation",
+        "color": "#4f4f4f",
+        "italic": false
+      },
+      {
+        "text": "While sneaking, you become invisible."
+      }
+    ],
+    "mode": "replace_all"
+  }

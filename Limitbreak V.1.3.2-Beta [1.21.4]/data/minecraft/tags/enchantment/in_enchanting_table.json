@@ -1,0 +1,29 @@
+{
+    "values": [
+        "kiwi:frost_aspect",
+        "kiwi:scythe",
+        "kiwi:ravenous",
+        "kiwi:wound",
+        "kiwi:berserker",
+        "kiwi:resourceful",
+        "kiwi:heavy_helmet",
+        "kiwi:heavy_chestplate",
+        "kiwi:heavy_leggings",
+        "kiwi:heavy_boots",
+        "kiwi:lightweight_helmet",
+        "kiwi:lightweight_chestplate",
+        "kiwi:lightweight_leggings",
+        "kiwi:lightweight_boots",
+        "kiwi:thousand_arrows",
+        "kiwi:defender",
+        "kiwi:withered",
+        "kiwi:winded",
+        "kiwi:hexed",
+        "kiwi:invoke",
+        "kiwi:retaliate",
+        "kiwi:safeguard",
+        "kiwi:braced",
+        "kiwi:raking",
+        "kiwi:vaulting"
+    ]
+}

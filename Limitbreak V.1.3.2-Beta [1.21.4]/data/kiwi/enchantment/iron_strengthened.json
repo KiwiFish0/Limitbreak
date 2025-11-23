@@ -1,0 +1,49 @@
+{
+  "exclusive_set": [
+    "kiwi:netherite_strengthened",
+    "kiwi:diamond_strengthened"
+  ],
+  "anvil_cost": 1,
+  "description": {
+    "text": "Iron-Strengthened",
+    "color": "#e6e6e6"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 10
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "bone",
+    "B": "minecraft:bow",
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "E": "minecraft:ender_pearl"
+  },
+  "pattern": [
+    "XEX",
+    "SBS",
+    "XSX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:custom_data": "{bone_charm:1b}",
+      "minecraft:custom_name": "{\"text\":\"Bone Charm\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to summon a Skeleton.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb the closest summoned Skeleton.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to teleport all summoned Skeletons to your position.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb all summoned Skeletons.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"A reanimated skeleton, armed with a bow. Great for supporting damage.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Soul Cost: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"20 ᛇ Souls\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Capacity Reserve: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"1 ᛟ Summon Capacity\"}]}",
+        "\"\"",
+        "{\"color\":\"red\",\"italic\":false,\"text\":\"Requires: \",\"extra\":[{\"bold\":true,\"color\":\"#a49f82\",\"italic\":false,\"text\":\"[NECROMANCER]\"},{\"color\":\"red\",\"italic\":false,\"text\":\" Class\"}]}"
+      ],
+      "minecraft:item_model": "skeleton_skull",
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1,
+    "id": "minecraft:bone"
+  }
+}

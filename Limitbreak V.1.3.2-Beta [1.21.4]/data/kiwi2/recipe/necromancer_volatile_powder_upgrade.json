@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "B": "minecraft:string",
+    "R": "minecraft:gunpowder",
+    "X": [
+      "minecraft:redstone"
+    ]
+  },
+  "pattern": [
+    "BXB",
+    "RSR",
+    "BXB"
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Volatile Powder ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a Creeper summon to evolve it into a Volatile Creeper.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Upgrades:\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"blue\",\"bold\":false,\"italic\":false,\"text\":\"+0.1 Movement Speed\"}]}",
+        "{\"color\":\"#9620b6\",\"italic\":false,\"text\":\"[ SKILL ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Absorbing this entity will remotely detonate it, explosion power depends on the entity.\"}]}",
+        "{\"color\":\"#b62020\",\"italic\":false,\"text\":\"[ ON-DEATH ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Detonate on death, explosion power depends on the entity.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Does not remove the charged effect on Creepers.\"}"
+      ],
+      "minecraft:rarity": "uncommon",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_volatile_powder:1b,necromancer_soul_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:entity.firework_rocket.large_blast",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

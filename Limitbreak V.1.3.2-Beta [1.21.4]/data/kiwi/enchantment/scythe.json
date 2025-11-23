@@ -1,0 +1,82 @@
+{
+  "anvil_cost": 4,
+  "description": "Scythe",
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:hoes",
+  "weight": 3,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "scythe_reach_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.12,
+          "per_level_above_first": 0.12
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "scythe_attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.5,
+          "per_level_above_first": 1.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "scythe_attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.55,
+          "per_level_above_first": -0.55
+        },
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:sweep_attack"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {}
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:entity.player.attack.sweep",
+          "volume": 1,
+          "pitch": 1.5
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "anvil_cost": 4,
+  "description": "Charged",
+  "effects": {
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 10
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_2/charged"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": 3
+    },
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "start": "minecraft:block.beacon.activate",
+        "mid": "minecraft:block.beacon.power_select",
+        "end": "minecraft:entity.warden.sonic_charge"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}

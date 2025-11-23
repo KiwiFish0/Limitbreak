@@ -1,0 +1,2 @@
+execute as @e[distance=..4,limit=10] unless entity @s[type=!#enemy_mobs_only,tag=!wave_mob] run damage @s 1
+execute at @a[nbt={Inventory:[{id:"minecraft:amethyst_shard",components:{"minecraft:custom_data":{pulse_stone:1b}}}]}] at @e[type=#enemy_mobs_only,distance=..4,limit=10] run particle reverse_portal ~ ~1 ~ 0.25 0.5 0.25 0.01 20

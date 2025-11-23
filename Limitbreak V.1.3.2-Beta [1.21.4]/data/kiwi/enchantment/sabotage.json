@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 1,
+  "description": "Sabotage",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/sabotage"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 2
+}

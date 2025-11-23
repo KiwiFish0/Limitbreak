@@ -1,0 +1,36 @@
+{
+  "primary_items": "minecraft:shield",
+  "anvil_cost": 2,
+  "description": {
+    "text": "Braced"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:knockback_resistance",
+        "id": "enchantment_bulwark_knockback_resistance",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.015,
+          "per_level_above_first": 0.015
+        }
+      }
+    ]
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "minecraft:shield",
+  "weight": 1
+}

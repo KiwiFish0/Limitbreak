@@ -1,0 +1,1 @@
+$spreadplayers $(x) $(z) 2 10 false @a

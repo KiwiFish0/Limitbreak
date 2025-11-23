@@ -1,0 +1,123 @@
+{
+  "anvil_cost": 4,
+  "description": "Colossal",
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": "#minecraft:enchantable/mace",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 2,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "colossal_enchantment_scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:step_height",
+        "id": "colossal_step_height",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "colossal_attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 8,
+          "per_level_above_first": 2
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_knockback",
+        "id": "colossal_attack_knockback",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:knockback_resistance",
+        "id": "colossal_knockback_resistance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.02,
+          "per_level_above_first": 0.02
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:max_health",
+        "id": "colossal_max_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 4,
+          "per_level_above_first": 4
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "colossal_entity_interaction_reach",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.33,
+          "per_level_above_first": 0.33
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "colossal_attack_speed_penalty",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.1,
+          "per_level_above_first": -0.1
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "colossal_movement_speed_penalty",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.01,
+          "per_level_above_first": -0.01
+        },
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_1/colossal"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 1,
+    "description": "[Chestplate] Heavy",
+    "exclusive_set": "kiwi:lightweight_chestplate",
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:armor",
+          "id": "heavy_chestplate_armor_attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.3,
+            "per_level_above_first": 0.3
+          },
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:movement_speed",
+          "id": "heavy_chestplate_movement_speed_attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.005,
+            "per_level_above_first": -0.005
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 30,
+      "per_level_above_first": 10
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "chest"
+    ],
+    "supported_items": "#minecraft:enchantable/chest_armor",
+    "weight": 5
+  }

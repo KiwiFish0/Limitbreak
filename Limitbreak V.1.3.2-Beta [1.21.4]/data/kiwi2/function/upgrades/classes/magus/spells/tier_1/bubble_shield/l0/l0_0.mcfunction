@@ -1,0 +1,3 @@
+execute as @a[tag=magus_bubble_shielded] at @s if score @s cw_particleplot matches 0 run function kiwi2:upgrades/classes/magus/spells/tier_1/bubble_shield/frames/f0
+execute as @a[tag=magus_bubble_shielded] at @s if score @s cw_particleplot matches 1 run function kiwi2:upgrades/classes/magus/spells/tier_1/bubble_shield/frames/f1
+execute as @a[tag=magus_bubble_shielded] at @s if score @s cw_particleplot matches 2 run function kiwi2:upgrades/classes/magus/spells/tier_1/bubble_shield/frames/f2

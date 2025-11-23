@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"limitbreak_interaction\",\"magus_class_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/magus/magus_class_buy"
+  }
+}

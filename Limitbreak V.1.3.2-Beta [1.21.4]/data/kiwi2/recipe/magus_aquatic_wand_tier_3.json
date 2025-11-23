@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "aquatic_wand",
+  "key": {
+    "#": "minecraft:amethyst_shard",
+    "X": "minecraft:heart_of_the_sea",
+    "Q": "minecraft:prismarine_crystals"
+  },
+  "pattern": [
+    "XXX",
+    "Q#Q",
+    "Q#Q"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.2,
+        "animation": "block",
+        "sound": "minecraft:block.bubble_column.whirlpool_ambient",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:entity.illusioner.cast_spell"
+          }
+        ]
+      },
+      "minecraft:custom_data": "{magus_wand:1b,aquatic_wand:1b}",
+      "minecraft:custom_name": "{\"text\":\"Aquatic Wand\",\"italic\":false}",
+      "minecraft:lore": [
+        "\" \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When Held:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\"1.2 Casting Speed\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\"1.6 Mana Efficiency\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\"0.9 Stability\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "kiwi:magus_wand_tier_3": 1
+        },
+        "show_in_tooltip": true
+      }
+    },
+    "count": 1,
+    "id": "minecraft:breeze_rod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "class_ability_use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{magus_wand:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/magus/spells/magus_give_back_wand"
+  }
+}

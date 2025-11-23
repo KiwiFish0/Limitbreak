@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RZR",
+    " R "
+  ],
+  "key": {
+    "Z": [
+      "minecraft:nether_star"
+    ],
+    "R": [
+      "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "kiwi:starred_weapon": 1
+        }
+      },
+      "minecraft:lore": [
+        "\"A versatile enchantment used to upgrade any kind of weapon.\""
+      ]
+    }
+  }
+}

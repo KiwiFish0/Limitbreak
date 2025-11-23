@@ -1,0 +1,65 @@
+attribute @s max_health modifier remove 100_points_max_health_upgrade
+attribute @s max_health modifier remove 200_points_max_health_upgrade
+attribute @s max_health modifier remove 325_points_max_health_upgrade
+attribute @s max_health modifier remove 500_points_max_health_upgrade
+attribute @s max_health modifier remove 750_points_max_health_upgrade
+attribute @s max_health modifier remove 1000_points_max_health_upgrade
+attribute @s max_health modifier remove 1300_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:1650_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:2050_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:2500_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:3000_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:3500_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:4025_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:4575_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:5150_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:5750_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:6375_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:7000_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:7675_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:8375_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:9100_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:9100_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:9850_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:10675_points_max_health_upgrade
+attribute @s max_health modifier remove minecraft:11500_points_max_health_upgrade
+
+attribute @s attack_damage modifier remove minecraft:100_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 200_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 325_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 500_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 750_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 1000_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove 1300_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:1650_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:2050_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:2500_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:3000_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:3500_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:4025_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:4575_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:5150_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:5750_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:6375_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:7000_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:7000_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:7675_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:8375_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:9100_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:9850_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:10675_points_attack_damage_upgrade
+attribute @s attack_damage modifier remove minecraft:11500_points_attack_damage_upgrade
+
+attribute @s armor modifier remove 500_points_armor_upgrade
+attribute @s armor modifier remove 1000_points_armor_upgrade
+attribute @s armor modifier remove 1500_points_armor_upgrade
+attribute @s armor modifier remove 2000_points_armor_upgrade
+attribute @s armor modifier remove 2500_points_armor_upgrade
+attribute @s armor modifier remove 3000_points_armor_upgrade
+
+attribute @s attack_speed modifier remove 1000_points_attack_speed_upgrade
+attribute @s attack_speed modifier remove 3500_points_attack_speed_upgrade
+attribute @s attack_speed modifier remove 7000_points_attack_speed_upgrade
+attribute @s attack_speed modifier remove 11500_points_attack_speed_upgrade
+
+execute as @a[scores={limitbreak_chosen_class=7}] at @s run function kiwi2:points/monk_conditioning_remove

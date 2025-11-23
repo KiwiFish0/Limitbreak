@@ -1,0 +1,3 @@
+attribute @s minecraft:max_health modifier remove slayer_class_max_health
+attribute @s minecraft:movement_speed modifier remove slayer_class_movement_speed
+attribute @s minecraft:step_height modifier remove slayer_class_step_height

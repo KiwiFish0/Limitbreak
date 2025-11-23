@@ -1,0 +1,20 @@
+{
+  "values": [
+    "minecraft:player",
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "#minecraft:boat",
+    "minecraft:painting",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:item",
+    "minecraft:bee",
+    "minecraft:villager",
+    "minecraft:horse",
+    "minecraft:camel",
+    "minecraft:donkey",
+    "minecraft:wolf",
+    "minecraft:armor_stand"
+  ]
+}

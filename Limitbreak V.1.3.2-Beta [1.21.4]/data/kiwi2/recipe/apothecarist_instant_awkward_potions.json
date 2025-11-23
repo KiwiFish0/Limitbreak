@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:potion"
+    ],
+    [
+      "minecraft:nether_wart"
+    ]
+  ],
+  "result": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  }
+}

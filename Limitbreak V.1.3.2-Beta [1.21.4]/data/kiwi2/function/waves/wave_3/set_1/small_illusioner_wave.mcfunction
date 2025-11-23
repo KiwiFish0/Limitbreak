@@ -1,0 +1,3 @@
+execute if score world Time matches 22001 run title @a subtitle [{"text":"10 ","color":"green","bold":false},{"text":"Illusioners","color":"#2954b1","bold":true}]
+execute if score world Time matches 22000..22010 run execute at @r[gamemode=survival] run summon illusioner ~ ~50 ~ {DeathLootTable:"kiwi2:entities/2to4_point",Tags:["wave_mob"],HandItems:[{id:"minecraft:bow",count:1},{}]}
+execute if score world Time matches 22011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=illusioner,tag=wave_mob]

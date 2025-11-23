@@ -1,0 +1,11 @@
+summon evoker_fangs ~ ~ ~ {Warmup:0}
+summon evoker_fangs ~ ~1 ~ {Warmup:5}
+summon evoker_fangs ~ ~2 ~ {Warmup:10}
+summon evoker_fangs ~ ~3 ~ {Warmup:15}
+summon evoker_fangs ~ ~4 ~ {Warmup:20}
+summon evoker_fangs ~ ~5 ~ {Warmup:25}
+summon evoker_fangs ~ ~6 ~ {Warmup:30}
+summon evoker_fangs ~ ~7 ~ {Warmup:35}
+summon evoker_fangs ~ ~8 ~ {Warmup:40}
+summon evoker_fangs ~ ~9 ~ {Warmup:45}
+summon evoker_fangs ~ ~10 ~ {Warmup:50}

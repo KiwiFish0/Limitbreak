@@ -1,0 +1,1 @@
+$tellraw @s [{"color": "#7a7a7a", "text": "Armor Toughness: "}, {"text": "$(t)", "color": "#7a7a7a"}]

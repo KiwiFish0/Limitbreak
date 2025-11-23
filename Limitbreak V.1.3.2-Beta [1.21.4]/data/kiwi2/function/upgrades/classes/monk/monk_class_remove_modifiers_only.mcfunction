@@ -1,0 +1,7 @@
+attribute @s minecraft:max_health modifier remove monk_class_max_health
+attribute @s minecraft:attack_damage modifier remove monk_class_attack_damage
+attribute @s minecraft:attack_damage modifier remove monk_class_attack_damage_multiplier
+attribute @s minecraft:armor modifier remove monk_class_armor
+attribute @s minecraft:movement_speed modifier remove monk_class_movement_speed
+attribute @s minecraft:safe_fall_distance modifier remove monk_class_safe_fall_distance
+attribute @s minecraft:attack_knockback modifier remove monk_class_safe_attack_knockback

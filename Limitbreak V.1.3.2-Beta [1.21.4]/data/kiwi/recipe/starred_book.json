@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GZG",
+    " G "
+  ],
+  "key": {
+    "Z": [
+      "minecraft:nether_star"
+    ],
+    "G": [
+      "minecraft:gold_nugget"
+    ]
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "kiwi:starred": 1
+        }
+      },
+      "minecraft:lore": [
+        "\"A versatile enchantment used to upgrade any kind of armor.\""
+      ]
+    }
+  }
+}

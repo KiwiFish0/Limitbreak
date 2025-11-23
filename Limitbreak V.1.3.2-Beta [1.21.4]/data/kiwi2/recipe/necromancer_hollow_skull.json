@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "bone"
+  },
+  "pattern": [
+    "XXX",
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:custom_data": "{hollow_skull:1b}",
+      "minecraft:custom_name": "{\"text\":\"Hollow Skull\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to summon a Hollow Husk.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb the closest summoned Hollow Husk.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to teleport all summoned Hollow Husks to your position.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb all summoned Hollow Husks.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Battered, slow-moving corpses, the weakest summon there is.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Soul Cost: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"10 ᛇ Souls\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Capacity Reserve: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"1 ᛟ Summon Capacity\"}]}",
+        "\"\"",
+        "{\"color\":\"red\",\"italic\":false,\"text\":\"Requires: \",\"extra\":[{\"bold\":true,\"color\":\"#a49f82\",\"italic\":false,\"text\":\"[NECROMANCER]\"},{\"color\":\"red\",\"italic\":false,\"text\":\" Class\"}]}"
+      ],
+      "minecraft:item_model": "skeleton_skull"
+    },
+    "count": 1,
+    "id": "minecraft:bone"
+  }
+}

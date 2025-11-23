@@ -1,0 +1,8 @@
+execute if entity @e[type=block_display,tag=enemy_magus_ice_arrow] run schedule function kiwi2:custom_mobs_fx/magi/ice_arrows_fx 1t
+execute if entity @e[type=stray,tag=enemy_magus,scores={magus_ice_arrows_duration=1..}] as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] at @s run particle snowflake ^ ^ ^ 0 0 0 0 1
+execute if entity @e[type=stray,tag=enemy_magus,scores={magus_ice_arrows_duration=1..}] as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] at @s run particle snowflake ^ ^ ^0.5 0 0 0 0 1
+execute if entity @e[type=stray,tag=enemy_magus,scores={magus_ice_arrows_duration=1..}] as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] at @s anchored eyes facing entity @e[type=armor_stand,tag=enemy_magus_ice_arrows_marker,limit=1,sort=nearest] eyes positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^ facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^2.5 ~ ~
+execute positioned as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] as @e[type=player,nbt=!{"HurtTime":10s},distance=..5] at @s run damage @s 2 freeze
+execute as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] at @s unless block ~ ~ ~ #replaceable run function kiwi2:custom_mobs_fx/magi/ice_arrows_hit_block
+execute as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=1..}] at @s run scoreboard players remove @s magus_ice_arrows_duration 1
+execute as @e[type=block_display,tag=enemy_magus_ice_arrow,scores={magus_ice_arrows_duration=0}] at @s run kill @s

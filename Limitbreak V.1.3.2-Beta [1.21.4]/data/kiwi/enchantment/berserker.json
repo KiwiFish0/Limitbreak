@@ -1,0 +1,96 @@
+{
+    "anvil_cost": 1,
+    "description": "Berserker",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": [
+              "minecraft:strength",
+              "minecraft:speed",
+              "minecraft:hunger"
+            ],
+            "min_duration": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 2
+            },
+            "max_duration": {
+              "type": "minecraft:linear",
+              "base": 2,
+              "per_level_above_first": 2
+            },
+            "min_amplifier": {
+              "type": "minecraft:linear",
+              "base": 0,
+              "per_level_above_first": 0
+            },
+            "max_amplifier": {
+              "type": "minecraft:linear",
+              "base": 0,
+              "per_level_above_first": 0
+            }
+          },
+          "enchanted": "attacker",
+          "affected": "attacker"
+        }
+      ],
+      "minecraft:attributes": [
+        {
+            "attribute": "minecraft:attack_damage",
+            "id": "berserker_attack_damage",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.5,
+              "per_level_above_first": 0.5
+            },
+            "operation": "add_value"
+          },
+        {
+          "attribute": "minecraft:attack_speed",
+          "id": "berserker_attack_speed",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.15,
+            "per_level_above_first": 0.15
+          },
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:armor",
+          "id": "berserker_armor_penalty",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -1.5,
+            "per_level_above_first": -1.5
+          },
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:max_health",
+          "id": "berserker_max_health_penalty",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -2,
+            "per_level_above_first": -2
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 80,
+      "per_level_above_first": 10
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 30,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:axes",
+    "weight": 1
+  }

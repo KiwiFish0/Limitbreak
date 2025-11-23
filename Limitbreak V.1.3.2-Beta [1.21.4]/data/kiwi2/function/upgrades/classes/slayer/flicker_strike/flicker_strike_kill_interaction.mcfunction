@@ -1,0 +1,1 @@
+execute unless entity @a[advancements={kiwi2:slayer_flicker_strike_interaction=true}] run kill @e[type=interaction,tag=flicker_strike_interaction,sort=nearest]

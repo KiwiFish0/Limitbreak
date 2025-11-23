@@ -1,0 +1,2 @@
+execute as @e[type=#undead,distance=..4,tag=!boss,limit=2] run effect give @s slowness 1 255 true
+execute at @a[nbt={Inventory:[{id:"minecraft:peony",components:{"minecraft:custom_data":{aglaophotis:1b}}}]}] at @e[type=#undead,distance=..4,limit=2] run particle minecraft:end_rod ~ ~2.5 ~ 0.05 0.05 0.05 0 20

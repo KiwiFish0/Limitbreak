@@ -1,0 +1,7 @@
+{
+	"exhaustion": 0.1,
+ 	"message_id": "crushed",
+	"scaling": "never",
+    "effects": "poking",
+	"death_message_type": "default"
+}

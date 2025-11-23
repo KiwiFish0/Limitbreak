@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:ender_eye",
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "I": "minecraft:netherite_sword",
+    "B": "minecraft:bone_block"
+  },
+  "pattern": [
+    "BEB",
+    "SIS",
+    "BSB"
+  ],
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Netherite Sword Upgrade ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a summon to equip it with a netherite sword.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"+8 Attack Damage\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"This replaces whatever item it had on hand.\"}"
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_netherite_sword_upgrade:1b,necromancer_sword_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:entity.villager.work_toolsmith",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

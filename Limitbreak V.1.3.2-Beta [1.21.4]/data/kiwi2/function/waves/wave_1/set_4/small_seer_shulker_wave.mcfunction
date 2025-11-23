@@ -1,0 +1,3 @@
+execute if score world Time matches 18001 run title @a subtitle [{"text":"2 ","color":"green","bold":false},{"text":"Seer Shulkers","color":"#b85ba5","bold":true}]
+execute if score world Time matches 18001..18002 run execute at @r[gamemode=survival] run summon shulker ~ ~ ~ {NoGravity:1b,Silent:1b,DeathLootTable:"kiwi2:entities/custom_mob_items/seer_shulker_loot",Health:420f,AttachFace:0b,Color:2b,Tags:["wave_mob","seer_shulker"],attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:follow_range",base:256},{id:"minecraft:max_health",base:420},{id:"minecraft:scale",base:3}]}
+execute if score world Time matches 18011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=shulker,tag=wave_mob,tag=seer_shulker]

@@ -1,0 +1,4 @@
+scoreboard players operation $temp wither_skeleton_identifier = @s wither_skeleton_identifier
+execute if entity @s[predicate=!kiwi3:player_sneak] run function kiwi2:upgrades/classes/necromancer/summons/wither_skeleton/wither_skeleton_spawn
+execute if entity @s[predicate=kiwi3:player_sneak] as @e[tag=wither_skeleton] at @s if score @s wither_skeleton_identifier = $temp wither_skeleton_identifier run tp @s @p[predicate=kiwi3:player_sneak,nbt={SelectedItem:{id:"minecraft:bone",components:{"minecraft:custom_data":{withered_charm:1b}}}},limit=1,sort=nearest]
+advancement revoke @s only kiwi2:necromancer_withered_charm_spawn

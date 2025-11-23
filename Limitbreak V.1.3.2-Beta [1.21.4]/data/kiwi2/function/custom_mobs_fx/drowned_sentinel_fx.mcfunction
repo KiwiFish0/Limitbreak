@@ -1,0 +1,1 @@
+execute if entity @e[type=trident,nbt={inGround:1b},distance=..4] run kill @e[type=trident,nbt={inGround:1b},distance=..4]

@@ -1,0 +1,1 @@
+execute as @e[tag=necromancer_summon] at @s run damage @s 0 starve by @e[type=silverfish,limit=1,sort=random,distance=..48,tag=necromancer_position_marker]

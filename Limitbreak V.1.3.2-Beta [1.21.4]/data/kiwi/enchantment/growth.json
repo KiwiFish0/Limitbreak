@@ -1,0 +1,33 @@
+{
+    "primary_items": "#minecraft:enchantable/armor",
+    "anvil_cost": 4,
+    "description": "Growth",
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:max_health",
+          "id": "growth_max_health",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 20,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 2
+  }

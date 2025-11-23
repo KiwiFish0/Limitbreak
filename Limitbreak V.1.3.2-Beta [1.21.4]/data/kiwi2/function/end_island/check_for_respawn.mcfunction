@@ -1,0 +1,2 @@
+execute if entity @e[type=minecraft:end_crystal,x=0,y=86,z=4,dx=0,dy=0,dz=0] if entity @e[type=minecraft:end_crystal,x=-4,y=86,z=0,dx=0,dy=0,dz=0] if entity @e[type=minecraft:end_crystal,x=0,y=86,z=-4,dx=0,dy=0,dz=0] if entity @e[type=minecraft:end_crystal,x=4,y=86,z=0,dx=0,dy=0,dz=0] run function kiwi2:end_island/place_end_island_respawn
+execute at @e[type=armor_stand,tag=end_island_center_marker,limit=1] run function kiwi2:end_island/teleport_players_to_island

@@ -1,0 +1,54 @@
+{
+  "anvil_cost": 4,
+  "description": "Gravitron",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "knockback_multiplier": {
+            "type": "minecraft:linear",
+            "base": -0.2,
+            "per_level_above_first": -0.2
+          },
+          "offset": [
+            0,
+            2,
+            0
+          ],
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 5,
+            "per_level_above_first": 1
+          },
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:ash"
+          },
+          "large_particle": {
+            "type": "minecraft:ominous_spawning"
+          },
+          "sound": {
+            "sound_id": "minecraft:block.respawn_anchor.ambient",
+            "range": 0
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "minecraft:player_head",
+  "weight": 2
+}

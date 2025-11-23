@@ -1,0 +1,1 @@
+$summon arrow ~ ~ ~ {Motion:[$(x)d,$(y)d,$(z)d],damage:5d,crit:1b,Tags:["arrow_rain_arrow"],SoundEvent:"entity.bee.sting"}

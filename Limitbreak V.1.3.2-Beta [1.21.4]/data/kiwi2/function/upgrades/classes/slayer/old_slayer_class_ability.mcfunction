@@ -1,0 +1,13 @@
+execute as @a[scores={limitbreak_chosen_class=1}] at @s unless score @s class_ability_scoreboard matches 1.. run title @s actionbar {"text": "< CUTTHROAT >","color": "red","bold": true}
+execute as @a[scores={limitbreak_chosen_class=1}] at @s unless score @s class_ability_scoreboard matches 1.. run particle dust{color:[1.0,0.0,0.0],scale:1} ~ ~1 ~ 0.4 0.8 0.4 1 50
+execute as @a[scores={limitbreak_chosen_class=1}] at @s unless score @s class_ability_scoreboard matches 1.. run scoreboard players set @s class_ability_scoreboard 200
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 200 run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["slayer_teleport_point"]}
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 200 run scoreboard players set @e[type=armor_stand,tag=slayer_teleport_point,sort=nearest,limit=1] class_ability_scoreboard 200
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 200 run give @s echo_shard[custom_data={class_ability_item:1b},custom_name='{"color":"red","italic":false,"text":"Class Ability: Cutthroat"}',consumable={consume_seconds:0,sound:"item.wolf_armor.break",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"item.wolf_armor.break"}]},use_cooldown={seconds:100},enchantment_glint_override=true] 1
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 200 run effect give @s speed 10 4 true
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 200 run effect give @s strength 10 1 true
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 1.. run particle small_gust ~ ~1 ~ 0.2 0.5 0.2 1 1
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 1.. run scoreboard players remove @s class_ability_scoreboard 1
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 1.. run scoreboard players remove @e[type=armor_stand,tag=slayer_teleport_point,sort=nearest,limit=1] class_ability_scoreboard 1
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 0 run function kiwi2:upgrades/classes/slayer/old_slayer_class_ability_tp_back
+execute as @a[scores={limitbreak_chosen_class=1}] at @s if score @s class_ability_scoreboard matches 1.. run schedule function kiwi2:upgrades/classes/slayer/old_slayer_class_ability 1t

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kiwi2:limitbreak_hub",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4096,
+    "separation": 4095,
+    "salt": 0
+  }
+}

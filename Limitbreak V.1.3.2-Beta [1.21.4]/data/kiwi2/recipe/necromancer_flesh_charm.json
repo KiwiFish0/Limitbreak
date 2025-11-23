@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:rotten_flesh",
+    "B": "minecraft:golden_apple",
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "E": "minecraft:ender_pearl"
+  },
+  "pattern": [
+    "XEX",
+    "SBS",
+    "XSX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:custom_data": "{flesh_charm:1b}",
+      "minecraft:custom_name": "{\"text\":\"Flesh Charm\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to summon a Zombie.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb the closest summoned Zombie.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to teleport all summoned Zombies to your position.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb all summoned Zombie.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Reliably tanky with decent melee damage, a staple in necromancy.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Soul Cost: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"20 ᛇ Souls\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Capacity Reserve: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"1 ᛟ Summon Capacity\"}]}",
+        "\"\"",
+        "{\"color\":\"red\",\"italic\":false,\"text\":\"Requires: \",\"extra\":[{\"bold\":true,\"color\":\"#a49f82\",\"italic\":false,\"text\":\"[NECROMANCER]\"},{\"color\":\"red\",\"italic\":false,\"text\":\" Class\"}]}"
+      ],
+      "minecraft:item_model": "minecraft:zombie_head",
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1,
+    "id": "minecraft:bone"
+  }
+}

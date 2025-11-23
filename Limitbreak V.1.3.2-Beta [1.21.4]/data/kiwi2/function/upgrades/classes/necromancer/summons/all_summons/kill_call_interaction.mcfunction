@@ -1,0 +1,1 @@
+execute unless entity @a[nbt={SelectedItem:{id:"minecraft:bone",components:{"minecraft:custom_data":{necromancer_calling_bone:1b}}}}] run kill @e[type=interaction,tag=necromancer_call_interaction,sort=nearest]

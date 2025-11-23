@@ -1,0 +1,84 @@
+{
+    "anvil_cost": 4,
+    "description": "",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:all_of",
+            "effects": [
+              {
+                "type": "minecraft:apply_mob_effect",
+                "to_apply": "minecraft:wither",
+                "min_duration": 3,
+                "max_duration": 8,
+                "min_amplifier": 1,
+                "max_amplifier": 3
+              },
+              {
+                "type": "minecraft:apply_mob_effect",
+                "to_apply": [
+                  "minecraft:poison"
+                ],
+                "min_duration": 3,
+                "max_duration": 8,
+                "min_amplifier": 1,
+                "max_amplifier": 3
+              },
+              {
+                "type": "minecraft:spawn_particles",
+                "particle": {
+                  "type": "minecraft:dust_color_transition",
+                  "from_color": 11337728,
+                  "to_color": 38026,
+                  "scale": 0.8
+                },
+                "horizontal_position": {
+                  "type": "entity_position",
+                  "offset": 0,
+                  "scale": 1
+                },
+                "vertical_position": {
+                  "type": "entity_position",
+                  "offset": 0,
+                  "scale": 1
+                },
+                "horizontal_velocity": {
+                  "base": 0,
+                  "movement_scale": 0
+                },
+                "vertical_velocity": {
+                  "base": 0,
+                  "movement_scale": 0
+                },
+                "speed": 1
+              }
+            ]
+          },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 60,
+      "per_level_above_first": 20
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 20
+    },
+    "primary_items": "minecraft:netherite_sword",
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "minecraft:netherite_sword",
+    "weight": 2
+  }

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "I": "minecraft:ghast_tear",
+    "B": "minecraft:ender_eye",
+    "R": "minecraft:rotten_flesh",
+    "Q": "minecraft:blaze_rod",
+    "V": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "IBI",
+    "RVR",
+    "SQS"
+  ],
+  "result": {
+    "id": "minecraft:bone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Soul of Awakening ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a Ghoul summon to evolve it into a Revenant.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Upgrades:\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"red\",\"bold\":false,\"italic\":false,\"text\":\"+50 Health\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"blue\",\"bold\":false,\"italic\":false,\"text\":\"+0.1 Movement Speed\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"+6 Attack Damage\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"#afce9c\",\"bold\":false,\"italic\":false,\"text\":\"+1 Step Height\"}]}",
+        "{\"color\":\"#2070b6\",\"italic\":false,\"text\":\"[ ON-HIT ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Leeches a moderate amount of health when targeted enemies are hit.\"}]}",
+        "{\"color\":\"#9620b6\",\"italic\":false,\"text\":\"[ SKILL ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Periodically let out a vicious growl when enemies are close, dealing damage in a large radius.\"}]}",
+        "{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"[ MISC ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"This entity’s armor and weapon can not be modified.\"}]}",
+        "\"\"",
+        "{\"color\":\"red\",\"italic\":false,\"text\":\"Existing weapons and armors will not be carried over.\"}"
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_soul_of_awakening:1b,necromancer_soul_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:entity.hoglin.converted_to_zombified",
+        "has_consume_particles": false
+      },
+      "minecraft:item_model": "minecraft:ender_eye"
+    }
+  }
+}

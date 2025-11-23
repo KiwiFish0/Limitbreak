@@ -1,0 +1,76 @@
+{
+  "anvil_cost": 15,
+  "description": "",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:player_head"
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/cephalothorax"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "items": "minecraft:leather_chestplate"
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/cephalothorax_chest"
+        }
+      }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -3,
+            "per_level_above_first": -3
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": [
+    "minecraft:player_head",
+    "minecraft:leather_chestplate"
+  ],
+  "slots": [
+    "head",
+    "chest"
+  ],
+  "supported_items": [
+    "minecraft:player_head",
+    "minecraft:leather_chestplate"
+  ],
+  "weight": 2
+}

@@ -1,0 +1,1 @@
+kill @e[type=arrow,tag=arrow_rain_arrow,nbt={inGround:1b}]

@@ -1,0 +1,217 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Point Dust",
+                  "bold": true,
+                  "color": "#ffd67d",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "has_consume_particles": true
+                  },
+                  "rarity": "uncommon",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Point Dust",
+                  "bold": true,
+                  "color": "#ffd67d",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "has_consume_particles": true
+                  },
+                  "rarity": "uncommon",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Point Dust",
+                  "bold": true,
+                  "color": "#ffd67d",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "animation": "eat",
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "has_consume_particles": true
+                  },
+                  "rarity": "uncommon",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Point Dust",
+                  "bold": true,
+                  "color": "#ffd67d",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "animation": "eat",
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "has_consume_particles": true
+                  },
+                  "rarity": "uncommon",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Point Dust",
+                  "bold": true,
+                  "color": "#ffd67d",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "animation": "eat",
+                    "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                    "has_consume_particles": true
+                  },
+                  "rarity": "uncommon",
+                  "minecraft:damage_resistant": {
+                    "types": "#minecraft:is_fire"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": "{black_shuck_fur:1b}",
+                  "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#6E5A5A\",\"italic\":false,\"text\":\"B\"},{\"color\":\"#8F5757\",\"text\":\"l\"},{\"color\":\"#B15454\",\"text\":\"a\"},{\"color\":\"#D25151\",\"text\":\"c\"},{\"color\":\"#F44E4E\",\"text\":\"k \"},{\"color\":\"#EC5656\",\"text\":\"S\"},{\"color\":\"#D06363\",\"text\":\"h\"},{\"color\":\"#B46F6F\",\"text\":\"u\"},{\"color\":\"#987C7C\",\"text\":\"c\"},{\"color\":\"#8E8585\",\"text\":\"k \"},{\"color\":\"#AB8585\",\"text\":\"F\"},{\"color\":\"#C78585\",\"text\":\"u\"},{\"color\":\"#FF8585\",\"text\":\"r\"}]",
+                  "minecraft:lore": [
+                    "{\"color\":\"gray\",\"italic\":false,\"text\":\"A tuft of fur salvaged from a Black Shuck, it omits an ominous energy...\"}"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }

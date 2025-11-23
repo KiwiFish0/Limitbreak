@@ -1,0 +1,2 @@
+advancement revoke @a only kiwi2:detect_player_kill_dragon
+function kiwi2:end_island/end_portal_setblock

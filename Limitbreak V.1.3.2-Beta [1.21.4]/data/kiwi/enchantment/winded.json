@@ -1,0 +1,101 @@
+{
+  "anvil_cost": 4,
+  "description": "Winded",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "vaulting_safe_fall_distance",
+        "amount": 4,
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true,
+                "is_on_ground": false
+              },
+              "movement": {
+                "fall_distance": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:enchantment_active_check",
+            "active": false
+          }
+        ],
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 0,
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "radius": 3.5,
+          "create_fire": false,
+          "block_interaction": "trigger",
+          "small_particle": {
+            "type": "minecraft:gust_emitter_large"
+          },
+          "large_particle": {
+            "type": "minecraft:gust_emitter_small"
+          },
+          "sound": "minecraft:entity.breeze.slide"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true,
+                "is_on_ground": false
+              },
+              "movement": {
+                "horizontal_speed": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:enchantment_active_check",
+            "active": false
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/winded"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

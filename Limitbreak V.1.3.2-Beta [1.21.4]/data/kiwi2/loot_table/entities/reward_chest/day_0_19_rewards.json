@@ -1,0 +1,338 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 10
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:diamond_shovel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 15
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 15,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 15,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 15,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 15,
+                "min": 10
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 15
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 15
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_shovel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:growth": 2
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:unbreaking": 4
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:peony",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#EF85FF\",\"italic\":false,\"text\":\"A\"},{\"color\":\"#F37AF2\",\"text\":\"g\"},{\"color\":\"#F870E5\",\"text\":\"l\"},{\"color\":\"#FC65D8\",\"text\":\"a\"},{\"color\":\"#FA64D3\",\"text\":\"o\"},{\"color\":\"#E975E0\",\"text\":\"p\"},{\"color\":\"#D985EE\",\"text\":\"h\"},{\"color\":\"#C896FB\",\"text\":\"o\"},{\"color\":\"#CE9DF5\",\"text\":\"t\"},{\"color\":\"#DE9EE7\",\"text\":\"i\"},{\"color\":\"#FFA1CA\",\"text\":\"s\"}]",
+                "minecraft:custom_data": "{aglaophotis:1b}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A herb which is effective against the occult.\"}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cornflower",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#2D4BE0\",\"italic\":false,\"text\":\"H\"},{\"color\":\"#4C4AEA\",\"text\":\"e\"},{\"color\":\"#6C48F5\",\"text\":\"r\"},{\"color\":\"#8B47FF\",\"text\":\"b \"},{\"color\":\"#8D55FF\",\"text\":\"o\"},{\"color\":\"#9062FF\",\"text\":\"f \"},{\"color\":\"#9270FF\",\"text\":\"N\"},{\"color\":\"#9A53FF\",\"text\":\"a\"},{\"color\":\"#A336FF\",\"text\":\"r\"},{\"color\":\"#AB19FF\",\"text\":\"c\"},{\"color\":\"#A223E6\",\"text\":\"i\"},{\"color\":\"#9A2CCC\",\"text\":\"s\"},{\"color\":\"#9136B3\",\"text\":\"s\"},{\"color\":\"#734ECC\",\"text\":\"u\"},{\"color\":\"#367FFF\",\"text\":\"s\"}]",
+                "minecraft:custom_data": "{herb_of_narcissus:1b}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A poisonous herb grown from a withered memory.\"}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#FFBB33\",\"italic\":false,\"text\":\"A\"},{\"color\":\"#F9C937\",\"text\":\"m\"},{\"color\":\"#F3D73C\",\"text\":\"b\"},{\"color\":\"#EDE440\",\"text\":\"r\"},{\"color\":\"#E7F244\",\"text\":\"o\"},{\"color\":\"#E5EA41\",\"text\":\"s\"},{\"color\":\"#E4E13E\",\"text\":\"i\"},{\"color\":\"#E0D038\",\"text\":\"a\"}]",
+                "minecraft:custom_data": "{ambrosia:1b}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"A powerful substance that gives longevity to ones who use it.\"}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/end_city_treasure"
+}

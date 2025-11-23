@@ -1,0 +1,2 @@
+scoreboard players add @s incandescent_remains_dur 1000
+function kiwi3:relics/incandescent_remains/incandescent_remains_fx

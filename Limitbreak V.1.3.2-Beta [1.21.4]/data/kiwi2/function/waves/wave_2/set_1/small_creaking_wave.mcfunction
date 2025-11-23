@@ -1,0 +1,5 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"15 ","color":"green","bold":false},{"text":"Creakings","color":"#BF6E11","bold":true}]
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon creaking ~ ~50 ~ {Health:50f,Tags:["wave_mob"],attributes:[{id:"minecraft:attack_damage",base:6},{id:"minecraft:max_health",base:50}],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon creaking ~ ~50 ~ {Health:50f,Tags:["wave_mob"],attributes:[{id:"minecraft:attack_damage",base:6},{id:"minecraft:max_health",base:50}],DeathLootTable:"kiwi2:entities/2_point"}
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon creaking ~ ~50 ~ {Health:50f,Tags:["wave_mob"],attributes:[{id:"minecraft:attack_damage",base:6},{id:"minecraft:max_health",base:50}],DeathLootTable:"kiwi2:entities/2to4_point"}
+execute if score world Time matches 20006 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=creaking, tag=wave_mob]

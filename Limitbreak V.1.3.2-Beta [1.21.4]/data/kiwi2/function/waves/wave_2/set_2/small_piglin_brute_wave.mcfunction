@@ -1,0 +1,5 @@
+execute if score world Time matches 20001 run title @a subtitle [{"text":"12 ","color":"green","bold":false},{"text":"Piglin Brutes","color":"#dda500","bold":true}]
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon piglin_brute ~ ~50 ~ {DeathLootTable:"kiwi2:entities/6to8_point",IsImmuneToZombification:1b,Tags:["wave_mob"],HandItems:[{id:"minecraft:golden_axe",count:1},{}]}
+execute if score world Time matches 20001..20005 run execute at @r[gamemode=survival] run summon piglin_brute ~ ~50 ~ {DeathLootTable:"kiwi2:entities/3to5_point",IsImmuneToZombification:1b,Tags:["wave_mob"],HandItems:[{id:"minecraft:golden_axe",count:1},{}]}
+execute if score world Time matches 20001..20002 run execute at @r[gamemode=survival] run summon piglin_brute ~ ~50 ~ {DeathLootTable:"kiwi2:entities/5to7_point",IsImmuneToZombification:1b,Tags:["wave_mob"],HandItems:[{id:"minecraft:golden_axe",count:1},{}]}
+execute if score world Time matches 20006 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=piglin_brute,tag=wave_mob]

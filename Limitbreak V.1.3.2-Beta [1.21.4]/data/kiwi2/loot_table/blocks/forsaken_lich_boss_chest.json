@@ -1,0 +1,408 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              },
+              "add": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 5
+              },
+              "add": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "kiwi:sacred": 2
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Crystal",
+                "bold": true,
+                "color": "#e79e00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "sound": "minecraft:block.trial_spawner.open_shutter",
+                  "has_consume_particles": true
+                },
+                "minecraft:item_model": "minecraft:resin_clump",
+                "rarity": "epic",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "raw": [
+                    "Abyssus neᵪus ruptus Viꙍa denudata in tenebris Ossa fracta Ⱥnima ligata In pulver oritur in pulvere manet deo Ⱥbyssus in vocat vinꙇulum ",
+                    {
+                      "text": "Ȿibilus",
+                      "color": "gray",
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/function kiwi3:relics/ancient_grimoire/ancient_grimoire_whisper"
+                      }
+                    },
+                    " defluit sed mors non claudit Vocem sibilant umbrae Viꙍa revocat mors menti Corpus inruet Ⱥnima devincitur Immortalis damnatio Exsecratus iterum surgit Iterum surgit iterum patitur"
+                  ]
+                },
+                {
+                  "raw": [
+                    "Ᵽrimus neᵪus fractu. Viꙍa effluit in silentio. Ⱥnima devincta sub umbris. Ossa servant ꝁuod mors dimittit. Ⱥbyssus non exspectat, sed vocat. Vincla rubiginant, sanguis madet in terra Mors non claudit, mors mentitur. ",
+                    {
+                      "text": "Ȿigⱨilum",
+                      "color": "#A32424",
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/function kiwi3:relics/ancient_grimoire/ancient_grimoire_chain"
+                      }
+                    },
+                    " Reditus sine fine, exsecrati iterum surgit. Corpus putrescit."
+                  ]
+                },
+                {
+                  "raw": [
+                    "Ⱥbyssus Corpus denudatum Sanguis defluit sed Ⱥnima manet ",
+                    {
+                      "text": "Foꙇs Anⱨmarum",
+                      "color": "#1A5263",
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/function kiwi3:relics/ancient_grimoire/ancient_grimoire_soul_well"
+                      }
+                    },
+                    " Vinꙇula vetusta iterum devincunt Nihil finit Nihil liberatur Exsecratus iterum surgit Iterum patitur Ossa in pulverem Ⱥnima ligata in aeternum Nex non claudit Iterum reviviscere Iterum damnar Vinꙇula fracta Ⱥbyssus spirat Nomen deletum Mors non veniet revelatus Ⱥnima devincit."
+                  ]
+                },
+                {
+                  "raw": [
+                    "Sanguis vetustus in sigⱨilo constringit. Viꙍa abscondita sub teꙇra. Clauⱶis revelata, iterum surgit ligat, umbrae devincunt. Nomen ",
+                    {
+                      "text": "Murꙇur",
+                      "color": "#673A85",
+                      "bold": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/function kiwi3:relics/ancient_grimoire/ancient_grimoire_murmur"
+                      }
+                    },
+                    ", Ⱥbyssus aperta. Nihil interit, nihil liberatur Iterum. Iterum. Legi in pulvere latet. Oculi in nocte vigilantes. Vinꙇula devincunt, viꙍa exstinguuntur. Exsecratus."
+                  ]
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#8F1717",
+                  "italic": false,
+                  "text": "G"
+                },
+                {
+                  "color": "#9D2A2A",
+                  "text": "r"
+                },
+                {
+                  "color": "#AA3E3E",
+                  "text": "i"
+                },
+                {
+                  "color": "#B85151",
+                  "text": "m"
+                },
+                {
+                  "color": "#C66464",
+                  "text": "o"
+                },
+                {
+                  "color": "#C65E5E",
+                  "text": "r"
+                },
+                {
+                  "color": "#C25050",
+                  "text": "i"
+                },
+                {
+                  "color": "#BE4242",
+                  "text": "u"
+                },
+                {
+                  "color": "#BA3333",
+                  "text": "m "
+                },
+                {
+                  "color": "#BC2F2E",
+                  "text": "E"
+                },
+                {
+                  "color": "#C33533",
+                  "text": "x"
+                },
+                {
+                  "color": "#CA3B38",
+                  "text": "a"
+                },
+                {
+                  "color": "#D1413C",
+                  "text": "n"
+                },
+                {
+                  "color": "#D4433D",
+                  "text": "i"
+                },
+                {
+                  "color": "#CC3D33",
+                  "text": "m"
+                },
+                {
+                  "color": "#C33629",
+                  "text": "i"
+                },
+                {
+                  "color": "#B32914",
+                  "text": "s"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Taken from the hands of a "
+                  },
+                  {
+                    "bold": true,
+                    "color": "#44C8E3",
+                    "italic": false,
+                    "text": "Forsaken Lich"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": ", this book holds immense power."
+                  }
+                ],
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "The pages are made out of ancient parchment, with sigils burned into them."
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "It makes you wonder how old that lich was..."
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:use_cooldown": {
+                  "seconds": 300
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{bygone_bones:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#969696\",\"italic\":false,\"text\":\"B\"},{\"color\":\"#A5A5A5\",\"text\":\"y\"},{\"color\":\"#B5B5B5\",\"text\":\"g\"},{\"color\":\"#C4C4C4\",\"text\":\"o\"},{\"color\":\"#BDBDBD\",\"text\":\"n\"},{\"color\":\"#ABABAB\",\"text\":\"e \"},{\"color\":\"#989898\",\"text\":\"B\"},{\"color\":\"#909090\",\"text\":\"o\"},{\"color\":\"#9A9A9A\",\"text\":\"n\"},{\"color\":\"#B0B0B0\",\"text\":\"e\"}]",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Cryptic bones from a bygone era recovered from a \"},{\"bold\":true,\"color\":\"#44C8E3\",\"italic\":false,\"text\":\"Forsaken Lich\"},{\"color\":\"gray\",\"italic\":false,\"text\":\".\"}]",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"It crumbles to the touch now that there isn't magic holding them together.\"}"
+                ],
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_sapling",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{withered_millennia_sapling:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#A8A8A8\",\"italic\":false,\"text\":\"W\"},{\"color\":\"#A6A6A6\",\"text\":\"i\"},{\"color\":\"#A3A3A3\",\"text\":\"t\"},{\"color\":\"#A1A1A1\",\"text\":\"h\"},{\"color\":\"#9E9E9E\",\"text\":\"e\"},{\"color\":\"#9C9C9C\",\"text\":\"r\"},{\"color\":\"#999999\",\"text\":\"e\"},{\"color\":\"#9F9F9F\",\"text\":\"d \"},{\"color\":\"#A6A6A6\",\"text\":\"M\"},{\"color\":\"#ACACAC\",\"text\":\"i\"},{\"color\":\"#B2B2B2\",\"text\":\"l\"},{\"color\":\"#B9B9B9\",\"text\":\"l\"},{\"color\":\"#BFBFBF\",\"text\":\"e\"},{\"color\":\"#C0C0C0\",\"text\":\"n\"},{\"color\":\"#C1C1C1\",\"text\":\"n\"},{\"color\":\"#C2C2C2\",\"text\":\"i\"},{\"color\":\"#C2C2C2\",\"text\":\"a \"},{\"color\":\"#C3C3C3\",\"text\":\"S\"},{\"color\":\"#C4C4C4\",\"text\":\"a\"},{\"color\":\"#C2C2C2\",\"text\":\"p\"},{\"color\":\"#C1C1C1\",\"text\":\"l\"},{\"color\":\"#BFBFBF\",\"text\":\"i\"},{\"color\":\"#BDBDBD\",\"text\":\"n\"},{\"color\":\"#BABABA\",\"text\":\"g\"}]",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Time is cruel, it corrodes and forgets, leaving little remaining.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Death reaps what is sown, corpses cannot live after all.\"}"
+                ],
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

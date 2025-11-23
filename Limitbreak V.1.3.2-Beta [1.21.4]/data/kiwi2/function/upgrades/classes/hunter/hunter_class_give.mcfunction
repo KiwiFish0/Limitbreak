@@ -1,0 +1,16 @@
+attribute @s minecraft:max_health modifier add hunter_class_max_health -0.1 add_multiplied_total
+attribute @s minecraft:movement_speed modifier add hunter_class_movement_speed 0.2 add_multiplied_total
+give @s echo_shard[custom_data={class_ability_item:1b},custom_name='{"color":"red","italic":false,"text":"Class Ability: Power Stance"}',consumable={consume_seconds:0,sound:"block.vault.insert_item_fail",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:block.vault.insert_item"}]},use_cooldown={seconds:1},enchantment_glint_override=true]
+give @s bow[enchantments={"kiwi:hunters_precision":1}] 1
+give @s crossbow[enchantments={"kiwi:hunters_precision":1}] 1
+give @s arrow 32
+recipe give @s kiwi2:hunter_extra_arrows
+give @s player_head[profile={id:[I;-1234488293,-1092925414,-1270588262,-1991994661],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYyMWViMWZjYTBmYzQ1NmRlZDhkMGU2NjY0NzJjYmU2YTA0YzFlMzI3YzdjZjE5MjQ1YjM2ZWNmNmMyMDk5YyJ9fX0="}]},custom_name='{"italic":false,"text":"Hunter Hood"}',attribute_modifiers=[{id:"hunter_hood_armor",type:"armor",amount:1,operation:"add_value",slot:"head"}],enchantable={value:15}] 1
+give @s leather_chestplate[custom_name='{"italic":false,"text":"Old Leather Jacket"}',dyed_color=12867158] 1
+give @s iron_leggings[custom_name='{"italic":false,"text":"Splintered Iron Leggings"}',attribute_modifiers=[{id:"splintered_iron_leggings_armor",type:"armor",amount:2,operation:"add_value",slot:"legs"}]] 1
+give @s leather_boots[custom_name='{"italic":false,"text":"Old Leather Boots"}',dyed_color=10701376] 1
+give @s written_book[written_book_content={title:"True Shot Primer",author:"",pages:['{"text":"::::::::: Hunter Code :::::::::\\n\\nA hunter is the art of defeating enemies from long ranges.\\n\\nKeep your distance, draw your bowstring, and shoot.\\n\\nThat is how it has been and how it always will be."}','{"text":"::::::::::: The Basics :::::::::::\\n\\nMake sure to craft arrows in bulk.\\n\\nXXX ---> Flint\\n### ---> Stick\\nYYY ---> Feather\\n\\nMake sure to use tipped arrows when the situation calls for it.\\n\\nRunning is always a valid option."}','{"text":"::::::::: Power Stance :::::::::\\n\\nYour class ability is the power stance.\\n\\nIt is a toggleable stance that enhances your full power shots, allowing you to snipe from long distances.\\n\\nWhile toggled you cannot move.\\n\\nPositioning is key."}','{"text":"::::::::::: Team Role :::::::::::\\n\\nYour job is to take out targeted enemies from afar.\\n\\nAny enemies that pose significant threat should be priority.\\n\\nDealing with airborne targets is also part of your role."}','{"text":":::::::::::: Essentials ::::::::::::\\n\\n- Utilize bulk crafting and tipped arrows.\\n\\n- Find a good position before entering power stance.\\n\\n- Deal consistent damage from afar, provide support fire for the frontlines."}']}] 1
+scoreboard objectives add power_shot_arrow_age dummy
+scoreboard objectives add power_shot_damage_boost dummy
+scoreboard objectives add power_shot_initial_damage dummy
+scoreboard players set @s power_shot_damage_boost 1

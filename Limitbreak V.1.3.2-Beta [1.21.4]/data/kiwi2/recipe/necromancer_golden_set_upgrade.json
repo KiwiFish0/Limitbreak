@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "R": "minecraft:gold_block",
+    "H": "minecraft:golden_helmet",
+    "C": "minecraft:golden_chestplate",
+    "L": "minecraft:golden_leggings",
+    "S": [
+      "soul_sand",
+      "minecraft:soul_soil"
+    ]
+  },
+  "pattern": [
+    "BHB",
+    "RCR",
+    "SLS"
+  ],
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Golden Set Upgrade ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a summon to equip it with an golden armor set.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"white\",\"bold\":false,\"italic\":false,\"text\":\"+11 Armor\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Overrides any existing worn armor.\"}"
+      ],
+      "minecraft:rarity": "uncommon",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_golden_set_upgrade:1b,necromancer_armor_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:item.armor.equip_gold",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

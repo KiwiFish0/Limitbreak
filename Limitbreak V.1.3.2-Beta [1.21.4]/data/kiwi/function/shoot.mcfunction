@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ summon minecraft:arrow run function kiwi:launch

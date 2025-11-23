@@ -1,0 +1,5 @@
+give @s echo_shard[custom_data={class_ability_item:1b},custom_name='{"color":"red","italic":false,"text":"Class Ability: The Elixir"}',consumable={consume_seconds:3,sound:"item.bottle.fill",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"block.brewing_stand.brew"}],animation:"none"},use_cooldown={seconds:1200},enchantment_glint_override=true]
+particle instant_effect ~ ~1 ~ 0.3 0.5 0.3 1 20 normal
+particle totem_of_undying ~ ~1.5 ~ 0.3 0.5 0.3 0.1 20 normal
+particle entity_effect{color:[0.820,0.000,0.000,1.00]} ~ ~1 ~ 0.5 0.5 0.5 1 80 normal
+give @s lingering_potion[potion_contents={custom_color:16711680,custom_effects:[{id:"minecraft:instant_health",amplifier:0,duration:200,show_particles:1b,show_icon:1b,ambient:1b},{id:"minecraft:resistance",amplifier:1,duration:600,show_particles:1b,show_icon:1b,ambient:1b},{id:"minecraft:absorption",amplifier:1,duration:600,show_particles:1b,show_icon:1b,ambient:1b}]},use_cooldown={seconds:1200},custom_name='{"color":"red","italic":false,"text":"The Elixir"}'] 1

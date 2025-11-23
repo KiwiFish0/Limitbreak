@@ -1,0 +1,5 @@
+execute if entity @a[scores={limitbreak_chosen_class=1,class_ability_scoreboard=1..}] run schedule function kiwi2:upgrades/classes/slayer/flicker_strike/flicker_strike_duration 1t
+execute as @a[scores={limitbreak_chosen_class=1,class_ability_scoreboard=1..}] at @s run title @s actionbar [{"bold":true,"color":"#d73737","text":"< QUICKDRAW | "},{"color":"white","score":{"name":"@s","objective":"class_ability_scoreboard"}}," ⫸ >"]
+execute as @a[scores={limitbreak_chosen_class=1,class_ability_scoreboard=1..}] at @s run particle small_gust ~ ~1 ~ 0.2 0.5 0.2 1 1
+execute as @a[scores={limitbreak_chosen_class=1,class_ability_scoreboard=0}] at @s run title @s actionbar [{"bold":true,"color":"gray","text":"< QUICKDRAW >"}]
+execute as @a[scores={limitbreak_chosen_class=1,class_ability_scoreboard=0}] at @s run tag @s remove flicker_strike_ready

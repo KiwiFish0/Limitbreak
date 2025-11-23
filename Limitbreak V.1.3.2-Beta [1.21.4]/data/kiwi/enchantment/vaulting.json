@@ -1,0 +1,70 @@
+{
+    "exclusive_set": [
+      "minecraft:sharpness",
+      "minecraft:smite"
+    ],
+    "anvil_cost": 4,
+    "description": "Vaulting",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:explode",
+            "block_interaction": "trigger",
+            "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+            "knockback_multiplier": {
+              "type": "minecraft:lookup",
+              "fallback": {
+                "type": "minecraft:linear",
+                "base": 2.2,
+                "per_level_above_first": 0
+              },
+              "values": [
+                1.2,
+                1.8,
+                2.5
+              ]
+            },
+            "large_particle": {
+              "type": "minecraft:gust_emitter_small"
+            },
+            "radius": 3.5,
+            "small_particle": {
+              "type": "minecraft:small_gust"
+            },
+            "sound": "minecraft:entity.breeze.deflect"
+          },
+          "enchanted": "attacker"
+        }
+      ],
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:safe_fall_distance",
+          "id": "vaulting_safe_fall_distance",
+          "amount": 4,
+          "operation": "add_value"
+        },
+        {
+          "attribute": "minecraft:entity_interaction_range",
+          "id": "vaulting_entity_interaction_range",
+          "amount": 0.6,
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2
+  }

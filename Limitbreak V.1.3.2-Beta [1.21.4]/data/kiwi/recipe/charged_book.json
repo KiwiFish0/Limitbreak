@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:lightning_rod",
+    "B": [
+      "minecraft:crossbow"
+    ],
+    "F": [
+      "minecraft:echo_shard"
+    ],
+    "G": [
+      "minecraft:music_disc_creator_music_box",
+      "minecraft:music_disc_creator"
+    ],
+    "R": [
+      "minecraft:heavy_core"
+    ],
+    "Z": [
+      "minecraft:beacon"
+    ]
+  },
+  "pattern": [
+    "ZRZ",
+    "FBF",
+    "#G#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "kiwi:charged": 1
+      },
+      "minecraft:lore": [
+        "\"The pinnacle of human inventions.\""
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
+}

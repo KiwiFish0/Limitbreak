@@ -1,0 +1,7 @@
+execute if entity @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=1..1000}] run schedule function kiwi3:relics/incandescent_remains/incandescent_remains_fx 1t
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=..1000}] at @s run scoreboard players remove @s incandescent_remains_dur 1
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=..1000}] at @s as @e[distance=..10,type=!#items_and_non_mobs] at @s run damage @s 2 minecraft:magic
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=..1000}] at @s as @e[distance=..10,type=!#items_and_non_mobs] at @s run setblock ~ ~ ~ fire keep
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=1}] at @s run title @s actionbar {"text": "The last cinder burns out.", "color": "#FF8C33"}
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=1}] at @s run playsound minecraft:block.fire.extinguish player @p ~ ~ ~ 1 1.5
+execute as @a[advancements={kiwi2:incandescent_remains=true},scores={incandescent_remains_dur=0}] at @s run advancement revoke @s only kiwi2:incandescent_remains

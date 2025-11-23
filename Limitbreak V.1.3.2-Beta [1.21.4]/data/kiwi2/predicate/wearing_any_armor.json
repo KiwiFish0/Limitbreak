@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": [
+          "stone_button"
+        ]
+      },
+      "chest": {
+        "items": [
+          "stone_button"
+        ]
+      },
+      "legs": {
+        "items": [
+          "stone_button"
+        ]
+      },
+      "feet": {
+        "items": [
+          "stone_button"
+        ]
+      }
+    }
+  }
+}

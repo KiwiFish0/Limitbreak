@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"magus_spell_change_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/magus/spells/magus_change_spell_branch"
+  }
+}

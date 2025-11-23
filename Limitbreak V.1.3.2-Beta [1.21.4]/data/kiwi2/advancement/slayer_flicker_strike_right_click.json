@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"flicker_strike_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/slayer/flicker_strike/flicker_strike"
+  }
+}

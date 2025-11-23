@@ -1,0 +1,2 @@
+title @s actionbar {"color":"red","text":"Not enough ᛟ Summon Capacity!", "bold":true}
+playsound minecraft:block.trial_spawner.ambient_ominous master @s ~ ~ ~ 1 2

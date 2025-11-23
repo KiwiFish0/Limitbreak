@@ -1,0 +1,5 @@
+execute if score world Time matches 22001 run title @a subtitle [{"text":"30 ","color":"yellow","bold":false},{"text":"Ghasts","color":"#dbdbdb","bold":true}]
+execute if score world Time matches 22001..22010 run execute at @r[gamemode=survival] run summon ghast ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/2to4_point"}
+execute if score world Time matches 22001..22010 run execute at @r[gamemode=survival] run summon ghast ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 22001..22010 run execute at @r[gamemode=survival] run summon ghast ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/1to3_point"}
+execute if score world Time matches 22011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=ghast, tag=wave_mob]

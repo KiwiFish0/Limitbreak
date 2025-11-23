@@ -1,0 +1,3 @@
+attribute @s minecraft:max_health modifier remove knight_class_max_health
+attribute @s minecraft:movement_speed modifier remove knight_class_movement_speed
+attribute @s minecraft:attack_damage modifier remove knight_attack_damage

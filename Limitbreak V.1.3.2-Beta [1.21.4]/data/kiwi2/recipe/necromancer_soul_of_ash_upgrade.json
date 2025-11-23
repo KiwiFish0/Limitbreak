@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:netherite_scrap",
+    "I": "minecraft:nether_star",
+    "B": "minecraft:blaze_rod",
+    "R": "minecraft:wither_skeleton_skull",
+    "H": [
+      "minecraft:soul_soil",
+      "minecraft:soul_sand"
+    ]
+  },
+  "pattern": [
+    "BRB",
+    "SIS",
+    "HSH"
+  ],
+  "result": {
+    "id": "minecraft:bone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"[ Soul of Ash ]\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] on a Wither Skeleton summon to evolve it into a Death Knight.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Upgrades:\"}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"red\",\"bold\":false,\"italic\":false,\"text\":\"+25 Health\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"green\",\"bold\":false,\"italic\":false,\"text\":\"+25% Scale\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"white\",\"bold\":false,\"italic\":false,\"text\":\"+10 Armor\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"white\",\"bold\":false,\"italic\":false,\"text\":\"+5 Armor Toughness\"}]}",
+        "{\"color\":\"#d79e2b\",\"italic\":false,\"text\":\"[ STAT ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"+6 Attack Damage\"}]}",
+        "{\"color\":\"#b62020\",\"italic\":false,\"text\":\"[ ON-DEATH ] \",\"extra\":[{\"color\":\"gray\",\"bold\":false,\"italic\":false,\"text\":\"Drop its own skull on death, allowing it to be revived by a necromancer.\"}]}",
+        "{\"text\":\"\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Existing weapons and armors will be carried over.\"}"
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": "{necromancer_soul_of_ash:1b,necromancer_soul_upgrade:1b}",
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "minecraft:block.trial_spawner.ambient_ominous",
+        "has_consume_particles": false
+      },
+      "minecraft:item_model": "minecraft:ender_eye"
+    }
+  }
+}

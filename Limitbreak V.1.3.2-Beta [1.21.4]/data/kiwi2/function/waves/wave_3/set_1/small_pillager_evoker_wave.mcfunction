@@ -1,0 +1,6 @@
+execute if score world Time matches 22001 run title @a subtitle [{"text":"15 ","color":"green","bold":false},{"text":"Pillagers","color":"#616161","bold":true},{"text":" 5 ","color":"green","bold":false},{"text":"Evokers","color":"#a6a69f","bold":true}]
+execute if score world Time matches 22001..22010 run execute at @r[gamemode=survival] run summon pillager ~ ~50 ~ {DeathLootTable:"kiwi2:entities/1to3_point",Tags:["wave_mob"],HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score world Time matches 22001..22005 run execute at @r[gamemode=survival] run summon pillager ~ ~50 ~ {DeathLootTable:"kiwi2:entities/1to3_point",Tags:["wave_mob"],HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score world Time matches 22001..22005 run execute at @r[gamemode=survival] run summon evoker ~ ~50 ~ {DeathLootTable:"kiwi2:entities/2to4_point",Tags:["wave_mob"]}
+execute if score world Time matches 22011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=pillager,tag=wave_mob]
+execute if score world Time matches 22011 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=evoker,tag=wave_mob]

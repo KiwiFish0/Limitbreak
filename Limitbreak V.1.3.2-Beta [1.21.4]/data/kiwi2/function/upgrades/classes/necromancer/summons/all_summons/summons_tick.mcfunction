@@ -1,0 +1,8 @@
+execute as @e[tag=necromancer_summon_check,predicate=kiwi2:no_riding,type=slime] at @s run function kiwi2:upgrades/classes/necromancer/summons/all_summons/despawn_killed
+execute as @e[type=silverfish,tag=gravemite] at @s if block ~ ~-1 ~ #minecraft:silverfish_infestable run setblock ~ ~-1 ~ infested_stone replace
+execute if entity @e[tag=gravemite_behemoth_passenger_candidate] as @e[tag=gravemite_behemoth_passenger_candidate] at @s if entity @n[type=silverfish,tag=gravemite_behemoth_no_passenger,distance=..3] run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_behemoth_ride
+execute if entity @e[tag=gravemite_behemoth,tag=!gravemite_behemoth_no_passenger,predicate=kiwi2:no_summon_passenger] as @e[tag=gravemite_behemoth,tag=!gravemite_behemoth_no_passenger,predicate=kiwi2:no_summon_passenger] run tag @s add gravemite_behemoth_no_passenger
+execute if entity @e[tag=gravemite_lurker_burrowed] as @e[tag=gravemite_lurker_burrowed] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_lurker_burrowed_attack
+execute if entity @e[tag=gravemite_gnawer,tag=!gravemite_devour_active] as @e[tag=gravemite_gnawer,tag=!gravemite_devour_active] at @s run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_gnawer_find_corpse
+execute if entity @e[tag=ghoul] as @e[tag=ghoul] at @s on target if entity @s[nbt={HurtTime:9s}] on attacker run function kiwi2:upgrades/classes/necromancer/summons/zombie/ghoul/ghoul_lifesteal
+execute if entity @e[tag=revenant] as @e[tag=revenant] at @s run function kiwi2:upgrades/classes/necromancer/summons/zombie/revenant/revenant_growl

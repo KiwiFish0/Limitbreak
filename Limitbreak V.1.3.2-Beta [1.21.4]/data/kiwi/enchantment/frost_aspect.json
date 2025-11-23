@@ -1,0 +1,74 @@
+{
+  "anvil_cost": 4,
+  "exclusive_set": "minecraft:fire_aspect",
+  "description": "Frost Aspect",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": [
+            "minecraft:slowness",
+            "minecraft:weakness",
+            "minecraft:hunger"
+          ],
+          "min_duration": 3,
+          "max_duration": 5,
+          "min_amplifier": 1,
+          "max_amplifier": 1
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.amethyst_block.break",
+          "volume": 0.8,
+          "pitch": 0.1
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.powder_snow.break",
+          "volume": 1,
+          "pitch": 2
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/tier_3/frost_aspect"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "primary_items": "#minecraft:enchantable/sword",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/fire_aspect",
+  "weight": 1
+}

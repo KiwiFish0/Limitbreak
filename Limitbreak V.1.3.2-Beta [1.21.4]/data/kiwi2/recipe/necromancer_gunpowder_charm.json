@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:moss_block",
+    "B": "minecraft:tnt",
+    "S": [
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "E": "minecraft:ender_pearl",
+    "R": "minecraft:gunpowder"
+  },
+  "pattern": [
+    "XEX",
+    "SBS",
+    "RSR"
+  ],
+  "result": {
+    "components": {
+      "minecraft:custom_data": "{gunpowder_charm:1b}",
+      "minecraft:custom_name": "{\"text\":\"Gunpowder Charm\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to summon a Creeper.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb the closest summoned Creeper.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.use\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to teleport all summoned Creepers to your position.\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"[\",\"extra\":[{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.sneak\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" + \"},{\"color\":\"dark_green\",\"bold\":false,\"italic\":false,\"keybind\":\"key.attack\"},{\"color\":\"gray\",\"italic\":false,\"text\":\"] to absorb all summoned Creepers.\"}]}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Volatile and powerful, the Creeper is a great unit to deal massive area damage.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Soul Cost: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"20 ᛇ Souls\"}]}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Capacity Reserve: \",\"extra\":[{\"bold\":false,\"color\":\"#64b0c1\",\"italic\":false,\"text\":\"2 ᛟ Summon Capacity\"}]}",
+        "\"\"",
+        "{\"color\":\"red\",\"italic\":false,\"text\":\"Requires: \",\"extra\":[{\"bold\":true,\"color\":\"#a49f82\",\"italic\":false,\"text\":\"[NECROMANCER]\"},{\"color\":\"red\",\"italic\":false,\"text\":\" Class\"}]}"
+      ],
+      "minecraft:item_model": "minecraft:creeper_head",
+      "minecraft:rarity": "uncommon"
+    },
+    "count": 1,
+    "id": "minecraft:bone"
+  }
+}

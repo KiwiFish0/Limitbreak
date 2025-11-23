@@ -1,0 +1,4 @@
+scoreboard players operation $temp gravemite_identifier = @s gravemite_identifier
+execute if entity @s[predicate=!kiwi3:player_sneak] run function kiwi2:upgrades/classes/necromancer/summons/gravemite/gravemite_spawn
+execute if entity @s[predicate=kiwi3:player_sneak] as @e[tag=gravemite,tag=!gravemite_lurker_burrowed] unless score @s gravemite_gnawer_devour_timer matches 0.. at @s if score @s gravemite_identifier = $temp gravemite_identifier run tp @s @p[predicate=kiwi3:player_sneak,nbt={SelectedItem:{id:"minecraft:bone",components:{"minecraft:custom_data":{gravebound_charm:1b}}}},limit=1,sort=nearest]
+advancement revoke @s only kiwi2:necromancer_gravebound_charm_spawn

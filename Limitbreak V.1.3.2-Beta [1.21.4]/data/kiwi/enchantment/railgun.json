@@ -1,0 +1,62 @@
+{
+  "exclusive_set": [
+    "minecraft:multishot",
+    "kiwi:thousand_arrows"
+  ],
+  "anvil_cost": 100,
+  "description": {
+    "text": "railgun",
+    "color": "#00b7ff",
+    "bold": true,
+    "shadow_color": 12293649
+  },
+  "effects": {
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 25
+        }
+      }
+    ],
+    "minecraft:attributes": [],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:divine_weapons/world_piercer/world_piercer"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:prevent_armor_change": {},
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": 20
+    },
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "start": "minecraft:block.beacon.activate",
+        "mid": "minecraft:block.beacon.power_select",
+        "end": "minecraft:entity.warden.sonic_charge"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}

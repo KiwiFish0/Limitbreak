@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "diamond",
+  "base": "#minecraft:enchantable/bow",
+  "result": {
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "kiwi:diamond_strengthened": 1
+        }
+      }
+    },
+    "count": 1,
+    "id": "minecraft:bow"
+  },
+  "template": "minecraft:diamond_block"
+}

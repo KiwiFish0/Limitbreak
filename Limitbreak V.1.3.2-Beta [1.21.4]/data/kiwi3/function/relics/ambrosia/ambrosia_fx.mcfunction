@@ -1,0 +1,2 @@
+execute if entity @a[nbt={Inventory:[{id:"minecraft:honeycomb",components:{"minecraft:custom_data":{ambrosia:1b}}}]}] run schedule function kiwi3:relics/ambrosia/ambrosia_fx 1t
+execute as @a[nbt={Inventory:[{id:"minecraft:honeycomb",components:{"minecraft:custom_data":{ambrosia:1b}}}]}] at @s if predicate kiwi2:chance_random_20 if entity @s[nbt={HurtTime:5s}] run effect give @s absorption 5 0

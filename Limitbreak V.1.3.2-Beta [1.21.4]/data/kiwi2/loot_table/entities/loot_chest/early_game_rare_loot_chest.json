@@ -1,0 +1,134 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 150
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 140
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 5
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chest",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "kiwi2:entities/loot_chest/early_game_common_loot_chest"
+                },
+                "minecraft:item_name": "[{\"bold\":true,\"color\":\"#BFBFBF\",\"text\":\"C\"},{\"color\":\"#CCCBCB\",\"text\":\"o\"},{\"color\":\"#D9D7D7\",\"text\":\"m\"},{\"color\":\"#E5E2E2\",\"text\":\"m\"},{\"color\":\"#F2EEEE\",\"text\":\"o\"},{\"color\":\"#FFFAFA\",\"text\":\"n \"},{\"color\":\"#F1EDED\",\"text\":\"L\"},{\"color\":\"#E3E0E0\",\"text\":\"o\"},{\"color\":\"#D6D4D4\",\"text\":\"o\"},{\"color\":\"#C8C7C7\",\"text\":\"t \"},{\"color\":\"#BABABA\",\"text\":\"C\"},{\"color\":\"#C3C2C1\",\"text\":\"h\"},{\"color\":\"#CCCAC8\",\"text\":\"e\"},{\"color\":\"#D4D1CE\",\"text\":\"s\"},{\"color\":\"#E6E1DC\",\"text\":\"t\"}]"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:healing"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

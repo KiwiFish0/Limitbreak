@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:replaceable",
+    "#minecraft:air",
+    "#all_signs",
+    "minecraft:bamboo",
+    "#banners",
+    "#buttons",
+    "#crops"
+  ]
+}

@@ -1,0 +1,9 @@
+summon item_display ^-1.5 ^1.25 ^1 {transformation:{left_rotation:[1f,0f,1f,0f],right_rotation:[-1.25f,-0.5f,-0f,-0f],translation:[0f,0f,0f],scale:[0.4f,0.4f,0.4f]},item:{id:"minecraft:echo_shard",count:1},Tags:["magus_homing_spell_enemy","magic_missile","magic_missile_init"],teleport_duration:1}
+summon item_display ^1.5 ^1.25 ^1 {transformation:{left_rotation:[1f,0f,1f,0f],right_rotation:[-1.25f,-0.5f,-0f,-0f],translation:[0f,0f,0f],scale:[0.4f,0.4f,0.4f]},item:{id:"minecraft:echo_shard",count:1},Tags:["magus_homing_spell_enemy","magic_missile","magic_missile_init"],teleport_duration:1}
+summon item_display ^-1 ^1.75 ^1 {transformation:{left_rotation:[1f,0f,1f,0f],right_rotation:[-1.25f,-0.5f,-0f,-0f],translation:[0f,0f,0f],scale:[0.4f,0.4f,0.4f]},item:{id:"minecraft:echo_shard",count:1},Tags:["magus_homing_spell_enemy","magic_missile","magic_missile_init"],teleport_duration:1}
+summon item_display ^1 ^1.75 ^1 {transformation:{left_rotation:[1f,0f,1f,0f],right_rotation:[-1.25f,-0.5f,-0f,-0f],translation:[0f,0f,0f],scale:[0.4f,0.4f,0.4f]},item:{id:"minecraft:echo_shard",count:1},Tags:["magus_homing_spell_enemy","magic_missile","magic_missile_init"],teleport_duration:1}
+summon item_display ^ ^2 ^1 {transformation:{left_rotation:[1f,0f,1f,0f],right_rotation:[-1.25f,-0.5f,-0f,-0f],translation:[0f,0f,0f],scale:[0.4f,0.4f,0.4f]},item:{id:"minecraft:echo_shard",count:1},Tags:["magus_homing_spell_enemy","magic_missile","magic_missile_init"],teleport_duration:1}
+scoreboard players set @e[type=item_display,sort=nearest,tag=magic_missile_init,distance=..3] magus_homing_scoreboard 200
+tag @e[type=item_display,sort=nearest,tag=magic_missile_init,distance=..3] remove magic_missile_init
+playsound minecraft:block.trial_spawner.spawn_item master @a[distance=..48] ~ ~ ~ 8 1
+function kiwi2:custom_mobs_fx/magi/homing_spells_tick

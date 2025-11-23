@@ -1,0 +1,49 @@
+{
+  "primary_items": "minecraft:shield",
+  "anvil_cost": 2,
+  "description": {
+    "text": "Safeguard"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 10,
+              "per_level_above_first": 0
+            },
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 4,
+              "per_level_above_first": 2
+            }
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:shield"
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "minecraft:shield",
+  "weight": 1
+}

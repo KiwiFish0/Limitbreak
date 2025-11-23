@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PIP",
+    "PPP",
+    " P "
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "count": 1,
+    "components": {
+      "minecraft:enchantable": {
+        "value": 15
+      }
+    }
+  }
+}

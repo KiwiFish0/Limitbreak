@@ -1,0 +1,2 @@
+particle snowflake ~ ~0.7 ~ 0.25 0.2 0.25 0.03 1
+execute if entity @s[nbt={HurtTime:1s}] if entity @n[type=#minecraft:enemy_mobs_only,distance=..12,limit=1,sort=nearest] if predicate kiwi2:chance_random_20 as @n[type=#minecraft:enemy_mobs_only,distance=..12,limit=1,sort=nearest] run function kiwi2:reward_chest/day_20_39/snap_freeze_coldsteel

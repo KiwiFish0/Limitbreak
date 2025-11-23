@@ -1,0 +1,8 @@
+scoreboard players add @s mob_first_skill_counter 1
+execute if entity @a[distance=..5] as @p at @s run damage @s 8 magic by @e[type=blaze,tag=cinderstorm,limit=1]
+execute if score @s mob_first_skill_counter matches 450 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}
+execute if score @s mob_first_skill_counter matches 900 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}
+execute if score @s mob_first_skill_counter matches 1250 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}
+execute if score @s mob_first_skill_counter matches 1700 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}
+execute if score @s mob_first_skill_counter matches 2050 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}
+execute if score @s mob_first_skill_counter matches 2500 run summon blaze ~ ~2 ~ {Tags:["wave_mob"],Passengers:[{id:"minecraft:blaze",Tags:["wave_mob"],CustomName:'{"color":"gray","obfuscated":true,"text":"Dinnerbone"}'}]}

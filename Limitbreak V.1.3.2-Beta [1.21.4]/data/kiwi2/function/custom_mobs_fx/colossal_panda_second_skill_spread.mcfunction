@@ -1,0 +1,2 @@
+execute as @e[type=falling_block,tag=colossal_panda_falling_blocks,limit=1] run spreadplayers ~ ~ 1 15 false @e[type=falling_block,tag=colossal_panda_falling_blocks]
+execute as @e[type=falling_block,tag=colossal_panda_falling_blocks] at @s run tp @s ~ ~20 ~

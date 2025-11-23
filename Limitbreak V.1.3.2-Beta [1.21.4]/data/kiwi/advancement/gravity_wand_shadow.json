@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:amethyst_shard",
+          "components": {
+            "minecraft:custom_data": "{gravity_crystal:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi:enchantment_function/gravitron_shadow"
+  }
+}

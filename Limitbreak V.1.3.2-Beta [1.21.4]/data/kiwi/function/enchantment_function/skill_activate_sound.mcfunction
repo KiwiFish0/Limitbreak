@@ -1,0 +1,1 @@
+playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 10 0

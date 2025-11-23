@@ -1,0 +1,1 @@
+scoreboard players set passive_xp world_upgrades 1

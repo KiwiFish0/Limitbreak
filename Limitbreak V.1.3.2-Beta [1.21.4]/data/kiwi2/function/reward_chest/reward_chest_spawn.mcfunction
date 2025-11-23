@@ -1,0 +1,3 @@
+execute if score world Day matches 0..19 if score world Reward matches 3 run setblock ~ ~ ~ chest{LootTable:"kiwi2:entities/reward_chest/day_0_19_rewards"} replace
+execute if score world Day matches 20..39 if score world Reward matches 3 run setblock ~ ~ ~ chest{LootTable:"kiwi2:entities/reward_chest/day_20_39_rewards"} replace
+execute if score world Day matches 40..59 if score world Reward matches 3 run setblock ~ ~ ~ chest{LootTable:"kiwi2:entities/reward_chest/day_40_59_rewards"} replace

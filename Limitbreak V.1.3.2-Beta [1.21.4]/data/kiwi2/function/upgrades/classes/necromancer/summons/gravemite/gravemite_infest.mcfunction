@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ #minecraft:silverfish_infestable run spreadplayers ~ ~ 0 1 false @s

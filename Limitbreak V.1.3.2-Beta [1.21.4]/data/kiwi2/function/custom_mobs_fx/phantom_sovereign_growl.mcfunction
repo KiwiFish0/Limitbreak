@@ -1,0 +1,9 @@
+playsound entity.warden.roar master @a[distance=..250] ~ ~ ~ 0.8 0.1 1
+playsound entity.warden.roar master @a[distance=..250] ~ ~ ~ 0.8 0.1 1
+playsound entity.warden.roar master @a[distance=..250] ~ ~ ~ 0.8 0 1
+playsound entity.warden.roar master @a[distance=..250] ~ ~ ~ 0.8 0 1
+playsound entity.phantom.hurt master @a[distance=..250] ~ ~ ~ 0.8 0 1
+playsound entity.phantom.hurt master @a[distance=..250] ~ ~ ~ 0.8 0 1
+playsound entity.phantom.death master @a[distance=..250] ~ ~ ~ 0.8 0 1
+playsound entity.ender_dragon.growl master @a[distance=..250] ~ ~ ~ 100 0 1
+playsound entity.elder_guardian.curse master @a[distance=..250] ~ ~ ~ 0.8 1.75

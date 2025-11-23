@@ -1,0 +1,1 @@
+execute unless entity @a[nbt={SelectedItem:{id:"minecraft:bone",components:{"minecraft:custom_data":{hollow_skull:1b}}}}] run kill @e[type=interaction,tag=hollow_husk_interaction,sort=nearest]

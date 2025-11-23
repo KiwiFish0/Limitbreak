@@ -1,0 +1,5 @@
+execute if score @s necromancer_bone_density < @s necromancer_bone_density_milestone run title @s actionbar {"color":"red","text":"Not enough ⛃ Bone Density!", "bold":true}
+execute if score @s necromancer_bone_density < @s necromancer_bone_density_milestone run playsound minecraft:entity.arrow.hit_player master @s ~ ~ ~ 1 0
+execute if score @s[tag=!necromancer_max_armor] necromancer_bone_density >= @s necromancer_bone_density_milestone run function kiwi2:upgrades/classes/necromancer/necromancer_armor_upgrade
+execute if entity @s[tag=necromancer_max_armor] run title @s actionbar {"color":"red","text":"Bone Exoskeleton [T10] is already maxed!", "bold":true}
+give @s echo_shard[custom_data={class_ability_item:1b},custom_name='{"color":"red","italic":false,"text":"Class Ability: Calcify"}',consumable={consume_seconds:0,sound:"entity.skeleton.converted_to_stray",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"entity.skeleton.hurt"}]},use_cooldown={seconds:1},enchantment_glint_override=true]

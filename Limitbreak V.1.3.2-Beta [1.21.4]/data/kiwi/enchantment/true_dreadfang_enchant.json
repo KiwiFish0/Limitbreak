@@ -1,0 +1,37 @@
+{
+  "anvil_cost": 4,
+  "description": "",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/true_dreadfang_dread"
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": "minecraft:netherite_sword",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:netherite_sword",
+  "weight": 2
+}

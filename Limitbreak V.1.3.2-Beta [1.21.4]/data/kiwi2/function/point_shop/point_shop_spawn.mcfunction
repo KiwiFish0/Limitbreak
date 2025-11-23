@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Invulnerable:1b,Glowing:1b,Tags:["point_shop"],VillagerData:{level:99,profession:"minecraft:weaponsmith"},DeathTime:20s}

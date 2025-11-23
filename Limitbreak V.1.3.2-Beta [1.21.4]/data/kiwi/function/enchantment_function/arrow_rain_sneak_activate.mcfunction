@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:skill_arrow_rain":1}}}}}] run function kiwi:enchantment_function/arrow_rain_tick
+kill @e[type=minecraft:arrow,nbt={weapon:{components:{"minecraft:enchantments":{levels:{"kiwi:skill_arrow_rain":1}}}},inGround:1b}]

@@ -1,0 +1,5 @@
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] run damage @s[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] 1 magic
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run tp @s ~ ~-1 ~
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run particle crit ~ ~1.4 ~ 1.1 0.2 1.1 0 15
+execute as @e[distance=..3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run playsound minecraft:entity.wolf.growl master @a[distance=..3] ~ ~ ~ 0.15 .5
+execute as @n[distance=..3,limit=3,type=!player,type=!#impact_projectiles,type=!item,type=!painting,type=!#boat] at @s run summon evoker_fangs ~ ~ ~

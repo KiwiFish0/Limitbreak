@@ -1,0 +1,2 @@
+scoreboard players set credit_bonus world_upgrades 5
+scoreboard players set world run_complete_credit_bonus 50

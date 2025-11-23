@@ -1,0 +1,2 @@
+attribute @s max_health modifier remove reaper_class_max_health
+attribute @s entity_interaction_range modifier remove reaper_class_entity_interaction_range

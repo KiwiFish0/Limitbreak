@@ -1,0 +1,3 @@
+execute if score world Time matches 22001 run title @a subtitle [{"text":"4 ","color":"green","bold":false},{"text":"Ravagers","color":"dark_gray","bold":true}]
+execute if score world Time matches 22001..22004 run execute at @r[gamemode=survival] run summon ravager ~ ~50 ~ {Tags:["wave_mob"],DeathLootTable:"kiwi2:entities/8to10_point"}
+execute if score world Time matches 22005 run execute at @r[gamemode=survival] run spreadplayers ~ ~ 1 20 false @e[type=ravager,tag=wave_mob]

@@ -1,0 +1,4 @@
+execute as @a[nbt={Inventory:[{id:"minecraft:turtle_scute",components:{"minecraft:custom_data":{seed_of_life:1b}}}]}] if predicate kiwi3:standing_still run scoreboard players add @s relics_timer 1
+execute as @a[nbt={Inventory:[{id:"minecraft:turtle_scute",components:{"minecraft:custom_data":{seed_of_life:1b}}}]}] unless predicate kiwi3:standing_still run scoreboard players reset @s relics_timer
+execute as @a[nbt={Inventory:[{id:"minecraft:turtle_scute",components:{"minecraft:custom_data":{seed_of_life:1b}}}]}] if score @s relics_timer matches 1 run effect give @s regeneration 3 2 true
+execute as @a[nbt={Inventory:[{id:"minecraft:turtle_scute",components:{"minecraft:custom_data":{seed_of_life:1b}}}]}] if score @s relics_timer matches 1.. run scoreboard players reset @s relics_timer

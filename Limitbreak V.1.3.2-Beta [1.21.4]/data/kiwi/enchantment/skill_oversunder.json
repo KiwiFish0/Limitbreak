@@ -1,0 +1,98 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "text": "[Oversunder]",
+    "color": "#faab00"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"oversunder_user\"]}"
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "kiwi:oversunder_damage",
+              "min_damage": 50,
+              "max_damage": 60
+            },
+            {
+              "type": "minecraft:explode",
+              "knockback_multiplier": 1.5,
+              "radius": 5,
+              "block_interaction": "none",
+              "small_particle": {
+                "type": "minecraft:gust_emitter_small"
+              },
+              "large_particle": {
+                "type": "minecraft:gust_emitter_large"
+              },
+              "sound": "minecraft:entity.wither.break_block"
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "kiwi:enchantment_function/oversunder"
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true,
+              "is_on_ground": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/oversunder_charge_up_score"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": false
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/oversunder_charge_down_score"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": "#minecraft:axes",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 2
+}

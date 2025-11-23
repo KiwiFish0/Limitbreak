@@ -1,0 +1,2 @@
+attribute @s max_health modifier remove necromancer_class_max_health
+attribute @s attack_damage modifier remove necromancer_class_attack_damage

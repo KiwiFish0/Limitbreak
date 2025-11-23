@@ -1,0 +1,1 @@
+$damage @s $(x) player_attack by @e[type=minecraft:armor_stand,tag=reaper_excision_marker,sort=nearest,scores={reaper_excision_timer=1..},limit=1]

@@ -1,0 +1,1 @@
+give @p resin_brick[consumable={consume_seconds:1,sound:"block.trial_spawner.spawn_mob"},item_name='[{"color":"gold","obfuscated":true,"text":"X"},{"bold":true,"color":"yellow","italic":false,"obfuscated":false,"text":" Point Clump "},{"obfuscated":true,"text":"X"}]'] 1

@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "kiwi:magus_wand_tier_1",
+              "levels": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

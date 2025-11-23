@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "holding_item": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "predicates": {
+                "minecraft:custom_data": "{hollow_skull:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/necromancer/summons/hollow_husk/hollow_husk_spawn_interaction"
+  }
+}

@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:bone",components:{"minecraft:custom_data":{necromancer_death_knight_skull:1b}}}}] run function kiwi2:upgrades/classes/necromancer/summons/wither_skeleton/death_knight/death_knight_reanimate
+advancement revoke @s only kiwi2:necromancer_summon_item

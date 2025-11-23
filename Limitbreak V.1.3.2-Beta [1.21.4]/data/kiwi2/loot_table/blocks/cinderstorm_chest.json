@@ -1,0 +1,470 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 22
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 16,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Clump",
+                "bold": true,
+                "color": "#ffc13a",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1,
+                  "sound": "minecraft:block.trial_spawner.spawn_mob",
+                  "has_consume_particles": true
+                },
+                "rarity": "rare",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Dust",
+                "bold": true,
+                "color": "#ffd67d",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 0,
+                  "sound": "minecraft:block.trial_spawner.spawn_item_begin",
+                  "has_consume_particles": true
+                },
+                "rarity": "uncommon",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": 3
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Point Crystal",
+                "bold": true,
+                "color": "#e79e00",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "sound": "minecraft:block.trial_spawner.open_shutter",
+                  "has_consume_particles": true
+                },
+                "minecraft:item_model": "minecraft:resin_clump",
+                "rarity": "epic",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{incandescent_remains:1b}",
+                "minecraft:custom_name": "[{\"color\":\"#FF8345\",\"italic\":false,\"text\":\"I\"},{\"color\":\"#FA9843\",\"text\":\"n\"},{\"color\":\"#F5AE40\",\"text\":\"c\"},{\"color\":\"#F0C33E\",\"text\":\"a\"},{\"color\":\"#ECD83C\",\"text\":\"n\"},{\"color\":\"#E9E83A\",\"text\":\"d\"},{\"color\":\"#EEE63C\",\"text\":\"e\"},{\"color\":\"#F3E43D\",\"text\":\"s\"},{\"color\":\"#F8E23E\",\"text\":\"c\"},{\"color\":\"#FDE03F\",\"text\":\"e\"},{\"color\":\"#FFCD3B\",\"text\":\"n\"},{\"color\":\"#FFA930\",\"text\":\"t \"},{\"color\":\"#FF8625\",\"text\":\"R\"},{\"color\":\"#FF621A\",\"text\":\"e\"},{\"color\":\"#FF3E10\",\"text\":\"m\"},{\"color\":\"#FF4C14\",\"text\":\"a\"},{\"color\":\"#FF6A1E\",\"text\":\"i\"},{\"color\":\"#FF8828\",\"text\":\"n\"},{\"color\":\"#FFC43B\",\"text\":\"s\"}]",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Flickering remains of the \"},{\"bold\":true,\"color\":\"#C96528\",\"italic\":false,\"text\":\"Cinderstorm\"},\". Warm enough to be edible.\"]",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Consume to wield a fragment of the storm's fury, enough to scorch foes and allies.\"}"
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:consumable": {
+                  "consume_seconds": 3,
+                  "animation": "eat",
+                  "sound": "entity.generic.burn",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:poison"
+                      ]
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:glowing",
+                          "amplifier": 0,
+                          "duration": 1000,
+                          "show_particles": false
+                        },
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "amplifier": 0,
+                          "duration": 1000,
+                          "show_particles": false
+                        },
+                        {
+                          "id": "minecraft:strength",
+                          "amplifier": 2,
+                          "duration": 1000,
+                          "show_particles": false
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "amplifier": 4,
+                          "duration": 1000,
+                          "show_particles": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "entity.blaze.ambient"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{cinderstorm_rod:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#FF742E\",\"italic\":false,\"text\":\"C\"},{\"color\":\"#FF862F\",\"text\":\"i\"},{\"color\":\"#FF9931\",\"text\":\"n\"},{\"color\":\"#FFAB32\",\"text\":\"d\"},{\"color\":\"#FFAF37\",\"text\":\"e\"},{\"color\":\"#FFA43E\",\"text\":\"r\"},{\"color\":\"#FF9946\",\"text\":\"s\"},{\"color\":\"#FF8E4D\",\"text\":\"t\"},{\"color\":\"#FF8040\",\"text\":\"o\"},{\"color\":\"#FF7134\",\"text\":\"r\"},{\"color\":\"#FF6327\",\"text\":\"m \"},{\"color\":\"#FF6625\",\"text\":\"R\"},{\"color\":\"#FF7A2C\",\"text\":\"o\"},{\"color\":\"#FFA33B\",\"text\":\"d\"}]",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"This remnant of the \"},{\"bold\":true,\"color\":\"#C96528\",\"italic\":false,\"text\":\"Cinderstorm\"},{\"italic\":false,\"text\":\" refuses oblivion,\"}]",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"its seething flames lashing out at death itself.\"}"
+                ],
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{smoldering_sigil:1b}",
+                "minecraft:custom_name": "[{\"bold\":true,\"color\":\"#CF2B2B\",\"italic\":false,\"text\":\"S\"},{\"color\":\"#DC4C3B\",\"text\":\"m\"},{\"color\":\"#E96E4A\",\"text\":\"o\"},{\"color\":\"#F58F5A\",\"text\":\"l\"},{\"color\":\"#FFA664\",\"text\":\"d\"},{\"color\":\"#FF9D5D\",\"text\":\"e\"},{\"color\":\"#FF9455\",\"text\":\"r\"},{\"color\":\"#FF8B4E\",\"text\":\"i\"},{\"color\":\"#F5804A\",\"text\":\"n\"},{\"color\":\"#E1744B\",\"text\":\"g \"},{\"color\":\"#CE694B\",\"text\":\"S\"},{\"color\":\"#BA5D4C\",\"text\":\"i\"},{\"color\":\"#C46146\",\"text\":\"g\"},{\"color\":\"#D8693E\",\"text\":\"i\"},{\"color\":\"#FF7B2E\",\"text\":\"l\"}]",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"A sigil containing the essence of the \"},{\"bold\":true,\"color\":\"#C96528\",\"italic\":false,\"text\":\"Cinderstorm\"},\".\"]",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Releasing the sigil momentarily consumes anything nearby with its wrath.\"}"
+                ],
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

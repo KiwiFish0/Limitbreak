@@ -1,0 +1,13 @@
+attribute @s max_health modifier add reaper_class_max_health -0.2 add_multiplied_total
+attribute @s entity_interaction_range modifier add reaper_class_entity_interaction_range 0.4 add_value
+give @s echo_shard[custom_data={class_ability_item:1b},custom_name='{"color":"red","italic":false,"text":"Class Ability: Excision"}',consumable={consume_seconds:0,sound:"entity.breeze.charge",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"block.trial_spawner.ominous_activate"}]},use_cooldown={seconds:150},enchantment_glint_override=true]
+
+scoreboard objectives add reaper_excision_damage dummy
+scoreboard players set @s reaper_excision_damage 5
+
+give @p player_head[profile={id:[I;-434722030,-219849865,-1645957721,-1989287269],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y2Y2M2OTI3ZTMxNTNlNDYxNGFhYWQ2NThlZDk5YzFiZmU2M2JmZGY3MGZiM2IxYzE2ZDllNTk2NGUzMDFmMiJ9fX0="}]},custom_name='{"italic":false,"text":"Cracked Barred Helmet"}',attribute_modifiers=[{id:"barred_helmet_armor",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"barred_helmet_entity_interaction_range",type:"entity_interaction_range",amount:0.25,operation:"add_value",slot:"head"}]] 1
+give @p leather_chestplate[dyed_color=4336962,attribute_modifiers=[{id:"armor",type:"armor",amount:1,operation:"add_value",slot:"chest"}],custom_name='{"italic":false,"text":"Stiff Brigandine"}'] 1
+give @p leather_leggings[attribute_modifiers=[{id:"armor",type:"armor",amount:2,operation:"add_value",slot:"legs"}],custom_name='{"italic":false,"text":"Padded Chausses"}',dyed_color=4207693] 1
+give @p iron_boots[attribute_modifiers=[{id:"armor",type:"armor",amount:1,operation:"add_value",slot:"feet"}],custom_name='{"italic":false,"text":"Worn Iron Boots"}'] 1
+give @p iron_hoe[custom_name='{"italic":false,"text":"Garden Scythe"}',enchantments={levels:{"kiwi:scythe":3}}] 1
+give @p written_book[written_book_content={title:"Art of the Half-Moon Blade",author:"",pages:['{"text":"| Formalities |\\n\\nFighting using scythes is different from fighting using swords.\\n\\nDistance control is the most important aspect, and you excel in that with extra reach. Use this to deal consistent damage at a safe distance."}','{"text":"| Excision |\\n\\nAlthough keeping safe distance is most important, it is also important to cut through the hordes.\\n\\nYour class ability throws a giant scythe which spins for a duration and damages in an area."}','{"text":"| Tips & Tricks |\\n\\n- Use high ground to your advantage, you have longer reach.\\n\\n- Use Excision to get out of tight spots.\\n\\n- Excision has a relatively short cooldown, don\'t hesitate to use it when need be."}']}] 1

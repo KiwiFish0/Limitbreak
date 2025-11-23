@@ -1,0 +1,1 @@
+execute as @a[tag=flicker_striked] at @s unless block ~ ~0.2 ~ #magus_blink_phase run tp @s ~ ~1 ~

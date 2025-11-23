@@ -1,0 +1,64 @@
+{
+  "anvil_cost": 4,
+  "description": "",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:hunger",
+              "min_duration": 3,
+              "max_duration": 8,
+              "min_amplifier": 1,
+              "max_amplifier": 3
+            },
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": [
+                "minecraft:poison"
+              ],
+              "min_duration": 3,
+              "max_duration": 8,
+              "min_amplifier": 1,
+              "max_amplifier": 3
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      },
+      {
+         "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/insatiable_hunger_attack"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "primary_items": "minecraft:netherite_axe",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:netherite_axe",
+  "weight": 2
+}

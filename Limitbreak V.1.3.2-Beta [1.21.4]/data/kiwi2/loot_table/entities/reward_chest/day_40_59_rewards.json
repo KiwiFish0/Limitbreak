@@ -1,0 +1,1368 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 15
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16,
+                "min": 8
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 28,
+                "min": 8
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 24,
+                "min": 6
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:netherite_sword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:netherite_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:netherite_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:netherite_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              }
+            }
+          ],
+          "name": "minecraft:netherite_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [],
+          "name": "minecraft:netherite_shovel",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40,
+                "min": 30
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 40,
+                "max": 60
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 60,
+                "min": 40
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:growth": 4
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "kiwi:unbreaking": 4
+                  },
+                  "show_in_tooltip": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "O",
+                  "bold": true,
+                  "color": "#A81D1D",
+                  "italic": false
+                },
+                {
+                  "text": "n",
+                  "color": "#CD3434"
+                },
+                {
+                  "text": "i ",
+                  "color": "#F34A4A"
+                },
+                {
+                  "text": "H",
+                  "color": "#FF6251"
+                },
+                {
+                  "text": "o",
+                  "color": "#FF7A50"
+                },
+                {
+                  "text": "r",
+                  "color": "#FF7644"
+                },
+                {
+                  "text": "n",
+                  "color": "#FF0000"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A shattered horn from the mythological oni. It still contains tremendous power.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "oni_horn": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:entity.panda.bite"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_cluster",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{pulse_crystal:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#A130D1",
+                  "italic": false,
+                  "text": "P"
+                },
+                {
+                  "color": "#B72FD3",
+                  "text": "u"
+                },
+                {
+                  "color": "#CD2ED5",
+                  "text": "l"
+                },
+                {
+                  "color": "#E32DD7",
+                  "text": "s"
+                },
+                {
+                  "color": "#CE2EE4",
+                  "text": "e "
+                },
+                {
+                  "color": "#BA2FF2",
+                  "text": "C"
+                },
+                {
+                  "color": "#A530FF",
+                  "text": "r"
+                },
+                {
+                  "color": "#B625FF",
+                  "text": "y"
+                },
+                {
+                  "color": "#C61AFF",
+                  "text": "s"
+                },
+                {
+                  "color": "#D70FFF",
+                  "text": "t"
+                },
+                {
+                  "color": "#E12BFF",
+                  "text": "a"
+                },
+                {
+                  "color": "#F563FF",
+                  "text": "l"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A pulsating crystal mass that discharges fatal energy.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "gravity_crystal": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#77458A",
+                  "italic": false,
+                  "text": "G"
+                },
+                {
+                  "color": "#904A9E",
+                  "text": "r"
+                },
+                {
+                  "color": "#A94EB1",
+                  "text": "a"
+                },
+                {
+                  "color": "#C253C5",
+                  "text": "v"
+                },
+                {
+                  "color": "#CC58CD",
+                  "text": "i"
+                },
+                {
+                  "color": "#C65EC8",
+                  "text": "t"
+                },
+                {
+                  "color": "#C065C4",
+                  "text": "y "
+                },
+                {
+                  "color": "#BA6BBF",
+                  "text": "C"
+                },
+                {
+                  "color": "#CE74C8",
+                  "text": "r"
+                },
+                {
+                  "color": "#E17ED2",
+                  "text": "y"
+                },
+                {
+                  "color": "#F587DB",
+                  "text": "s"
+                },
+                {
+                  "color": "#F685DC",
+                  "text": "t"
+                },
+                {
+                  "color": "#E376D4",
+                  "text": "a"
+                },
+                {
+                  "color": "#BD58C4",
+                  "text": "l"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "The power of gravity harnessed from a Seer Shulker, contained inside"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "the durable crystals of a Crystallized Corpse."
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:consumable": {
+                  "consume_seconds": 4,
+                  "animation": "bow",
+                  "sound": "block.respawn_anchor.ambient",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "block.end_portal.spawn"
+                    }
+                  ]
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "abyssal_edge": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gray",
+                "italic": false,
+                "text": "Abyssal Edge"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Off Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": "2.5 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": "0.4 Attack Speed"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "abyssal_edge_attack_damage",
+                      "type": "attack_damage",
+                      "amount": 2.5,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "abyssal_edge_attack_speed",
+                      "type": "attack_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "abyssal_reaver": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gray",
+                "italic": false,
+                "text": "Abyssal Reaver"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Main Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": "10 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": "1.8 Attack Speed"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "abyssal_reaver_attack_damage",
+                      "type": "attack_damage",
+                      "amount": 9,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "abyssal_reaver_attack_speed",
+                      "type": "attack_speed",
+                      "amount": -2.2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "abyssium_chestplate": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gray",
+                "italic": false,
+                "text": "Abyssium Chestplate"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:tide",
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "abyssium_chestplate_armor",
+                      "type": "armor",
+                      "amount": 10,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "abyssium_chestplate_armor_toughness",
+                      "type": "armor_toughness",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "abyssium_chestplate_sneaking_speed",
+                      "type": "sneaking_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "abyssium_chestplate_knockback_resistance",
+                      "type": "knockback_resistance",
+                      "operation": "add_value",
+                      "amount": 0.2,
+                      "slot": "chest"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{abyssium_greaves:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:tide",
+                  "show_in_tooltip": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "armor",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "id": "abyssium_greaves_armor",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "armor_toughness",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "id": "abyssium_greaves_armor_toughness",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "sneaking_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "abyssium_greaves_sneaking_speed",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "abyssium_greaves_knockback_resistance",
+                      "type": "knockback_resistance",
+                      "operation": "add_value",
+                      "amount": 0.2,
+                      "slot": "legs"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Abyssium Greaves",
+                "color": "gray",
+                "italic": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{abyssium_helmet:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    -481300574,
+                    398279182,
+                    -1403371404,
+                    -1718051552
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkzNDAzMDFhNjAxZjc0OTJhNjEwYzEwOWM0NTBjNDhhNDFjZjVlZTUwNTNmNWFiNzIxZTYxMmFiYTg0YWIyNiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:entity.enderman.scream"
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "armor",
+                      "amount": 5,
+                      "operation": "add_value",
+                      "id": "abyssium_helmet_armor",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "armor_toughness",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "id": "abyssium_helmet_armor_toughness",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "sneaking_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "abyssium_helmet_sneaking_speed",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "abyssium_helmet_knockback_resistance",
+                      "type": "knockback_resistance",
+                      "operation": "add_value",
+                      "amount": 0.2,
+                      "slot": "head"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                },
+                "minecraft:enchantable": {
+                  "value": 15
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Abyssium Helmet",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{abyssium_sabatons:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "armor",
+                      "amount": 5,
+                      "operation": "add_value",
+                      "id": "abyssium_sabatons_armor",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "armor_toughness",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "id": "abyssium_sabatons_armor_toughness",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "sneaking_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "abyssium_sabatons_sneaking_speed",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "abyssium_sabatons_knockback_resistance",
+                      "type": "knockback_resistance",
+                      "operation": "add_value",
+                      "amount": 0.2,
+                      "slot": "feet"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Abyssium Sabatons",
+                "color": "gray",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{eternium_boots:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "max_health",
+                      "amount": 15,
+                      "operation": "add_value",
+                      "id": "eternium_boots_max_health",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "burning_time",
+                      "amount": -0.25,
+                      "operation": "add_value",
+                      "id": "eternium_boots_burning_time",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "safe_fall_distance",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "eternium_boots_safe_fall_distance",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "step_height",
+                      "amount": 0.25,
+                      "operation": "add_value",
+                      "id": "eternium_boots_step_height",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "id": "eternium_boots_movement_speed",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "knockback_resistance",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "id": "eternium_boots_knockback_resistance",
+                      "slot": "feet"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Eternium Boots",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{eternium_chestplate:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "max_health",
+                      "amount": 15,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_max_health",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "burning_time",
+                      "amount": -0.25,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_burning_time",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "safe_fall_distance",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_safe_fall_distance",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "step_height",
+                      "amount": 0.25,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_step_height",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_movement_speed",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "knockback_resistance",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "id": "eternium_chestplate_knockback_resistance",
+                      "slot": "chest"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Eternium Chestplate",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{eternium_leggings:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "max_health",
+                      "amount": 15,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_max_health",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "burning_time",
+                      "amount": -0.25,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_burning_time",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "safe_fall_distance",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_safe_fall_distance",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "step_height",
+                      "amount": 0.25,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_step_height",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_movement_speed",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "knockback_resistance",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "id": "eternium_leggings_knockback_resistance",
+                      "slot": "legs"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Eternium Leggings",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{eternium_mask:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "max_health",
+                      "amount": 15,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_max_health",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "burning_time",
+                      "amount": -0.25,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_burning_time",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "safe_fall_distance",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_safe_fall_distance",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "step_height",
+                      "amount": 0.25,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_step_height",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_movement_speed",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "knockback_resistance",
+                      "amount": 0.05,
+                      "operation": "add_value",
+                      "id": "eternium_helmet_knockback_resistance",
+                      "slot": "head"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -588674170,
+                    -1203485735,
+                    -1887403617,
+                    -291306540
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkOGJkYTZhMTE0MjZkZmZiZWQ5MTg0NTA3Njg2ODQxZTFkZThkNzFjOWQxODUzNTM0M2U5MjA0NWJjYjU2YSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:enchantable": {
+                  "value": 15
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Eternium Mask",
+                "color": "yellow",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "stronghold_armor",
+                      "type": "armor",
+                      "amount": 10,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "stronghold_knockback_resistance",
+                      "type": "knockback_resistance",
+                      "amount": 0.075,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "stronghold_attack_speed",
+                      "type": "attack_speed",
+                      "amount": -3.5,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "stronghold_movement_speed",
+                      "type": "movement_speed",
+                      "amount": -0.025,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "stronghold_armor_offhand",
+                      "type": "armor",
+                      "amount": 6,
+                      "operation": "add_value",
+                      "slot": "offhand"
+                    },
+                    {
+                      "id": "stronghold_attack_damage",
+                      "type": "attack_damage",
+                      "amount": 9,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "stronghold_attack_knockback",
+                      "type": "attack_knockback",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                },
+                "minecraft:enchantments": {
+                  "kiwi:colossal_shield": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Stronghold",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/end_city_treasure"
+}

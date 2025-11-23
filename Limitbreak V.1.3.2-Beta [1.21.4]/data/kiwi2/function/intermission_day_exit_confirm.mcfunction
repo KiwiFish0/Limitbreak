@@ -1,0 +1,2 @@
+tellraw @s [{"color":"red","text":"Are you sure you want to exit the intermission period? Don't click yes if not. "},{"bold":true,"clickEvent":{"action":"run_command","value":"/function kiwi2:intermission_day_exit"},"color":"green","italic":false,"text":"[YES]"}]
+scoreboard players reset @s IntermissionDayExit

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "class_ability_use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{monk_talisman:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kiwi2:upgrades/classes/monk/monk_bless_talisman"
+  }
+}

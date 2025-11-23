@@ -1,0 +1,1 @@
+$damage @s $(x) player_attack by @p[tag=flicker_strike_ready]

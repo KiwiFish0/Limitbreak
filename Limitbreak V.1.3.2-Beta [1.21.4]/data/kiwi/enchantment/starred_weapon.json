@@ -1,0 +1,72 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "text": "✪",
+    "color": "#c30000",
+    "bold": true
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "starred_attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:mace",
+    "minecraft:trident",
+    "minecraft:netherite_axe",
+    "minecraft:diamond_axe",
+    "minecraft:golden_axe",
+    "minecraft:iron_axe",
+    "minecraft:stone_axe",
+    "minecraft:wooden_axe",
+    "minecraft:netherite_sword",
+    "minecraft:diamond_sword",
+    "minecraft:golden_sword",
+    "minecraft:iron_sword",
+    "minecraft:stone_sword",
+    "minecraft:wooden_sword"
+  ],
+  "weight": 10
+}

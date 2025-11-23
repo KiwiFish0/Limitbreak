@@ -1,0 +1,33 @@
+{
+    "anvil_cost": 1,
+    "description": "Defender",
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "attribute": "minecraft:armor",
+          "id": "defender_armor_attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          },
+          "operation": "add_value"
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 7,
+      "per_level_above_first": 7
+    },
+    "slots": [
+      "mainhand",
+      "offhand"
+    ],
+    "supported_items": "minecraft:shield",
+    "weight": 3
+  }

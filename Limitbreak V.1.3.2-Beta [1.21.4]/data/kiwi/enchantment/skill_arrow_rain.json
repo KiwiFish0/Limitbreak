@@ -1,0 +1,56 @@
+{
+  "primary_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "anvil_cost": 1,
+  "description": {
+    "text": "[Arrow Rain]",
+    "color": "#faab00"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "skill_arrow_rain_cooldown": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ],
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kiwi:enchantment_function/arrow_rain_sneak_activate"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 10
+}
